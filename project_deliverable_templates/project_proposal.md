@@ -19,3 +19,6 @@ You **should submit this plan via Slack** to the course instructors; alternative
 #### Tools:
 * How do you intend to meet the tools requirement of the project? 
 * Are you planning in advance to need or use additional tools beyond those required?
+
+#### MVP Goal:
+* What would a [minimum viable product (MVP)](./mvp.md) look like for this project?
