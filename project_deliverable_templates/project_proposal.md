@@ -5,7 +5,7 @@ However, keep in mind that throughout the design iterations of your project, man
 (i.e. increase/decrease in number of samples, types of features or algorithm used, etc), so this is just a starting point.
 Also, if you are unsure on some areas, you should still submit a partial form to receive feedback from instructors. 
 
-You **should submit this plan via Slack** to the course instructors.
+You **should submit this plan via Slack** to the course instructors; alternatively or in addition to submitting the plan, you may discuss the areas in this form with an instructor in a **scope meeting**.
 
 #### Question/need:
 * What is the framing question of your analysis, or the purpose of the model/system you plan to build? 
