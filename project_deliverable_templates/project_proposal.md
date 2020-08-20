@@ -1,4 +1,4 @@
-### Proposal Template Format
+### Project Proposal Template
 
 Before you start project work for a course, you **should be able to complete the following form**, addressing the questions listed as well as possible. 
 However, keep in mind that throughout the design iterations of your project, many parts of it will likely change 
