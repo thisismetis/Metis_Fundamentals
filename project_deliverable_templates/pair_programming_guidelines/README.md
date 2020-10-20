@@ -1,0 +1,1 @@
+Guidlines for pair programming
