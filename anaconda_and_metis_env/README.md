@@ -1,6 +1,6 @@
-### Metis Conda Environment
+# Metis Conda Environment
 
-# Environment management
+### Environment management
 
 We will be using Anaconda environments to manage the python packages that are
 needed for our curriculum. You can think of an environment as a container for
@@ -52,7 +52,7 @@ conda env create thisismetis/metis
 The `nb_conda` package will automatically connect your conda environment to
 jupytyer.
 
-# How to use the Metis environment
+## How to use the Metis environment
 
 When you open a new terminal, you should see a prompt similar to:
 
@@ -63,7 +63,7 @@ When you open a new terminal, you should see a prompt similar to:
 This indicates that you are currently in the "base" environment. You can confirm
 this with `conda info`.
 
-## Switch to the Metis environment
+### Switch to the Metis environment
 
 **Before you can run Jupyter, you need to switch to the Metis environment.** You
 can do this by running
@@ -82,7 +82,7 @@ You can then start Jupyter by running
 When starting a new notebook in Jupyter, students should select "Kernel ->
 Change Kernel -> metis" before running.
 
-# Updating the environment
+## Updating the environment
 
 You can update your metis environment any time by running
 
