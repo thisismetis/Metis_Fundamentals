@@ -1,7 +1,5 @@
 ### Metis Conda Environment
 
-<details><summary> Installing the environment for the first time (click to expand)</summary> 
-
 # Environment management
 
 We will be using Anaconda environments to manage the python packages that are
@@ -84,12 +82,10 @@ You can then start Jupyter by running
 When starting a new notebook in Jupyter, students should select "Kernel ->
 Change Kernel -> metis" before running.
 
-</details>
+# Updating the environment
 
-<details><summary>Updating the environment (click to expand)</summary> 
 You can update your metis environment any time by running
 
 ```bash
 conda env update thisismetis/metis
 ```
-</details>
