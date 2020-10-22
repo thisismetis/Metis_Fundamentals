@@ -1,6 +1,6 @@
-Guidlines for pair programming
+# Pair Programming Intro and Guidelines
 
-# Pair "Drivers"
+## Pair "Drivers"
 
 For each pair, use this to help you decide who will be the "driver" (i.e., the typer or coder) for the pair problem:
 
