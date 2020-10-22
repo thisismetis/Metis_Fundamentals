@@ -1,16 +1,4 @@
-# Sample Lesson Plan
+# Blogging 
 
-* (15m) [Blogging presentation](Blogging.pptx)
-* (15m) [Github.io blog setup](github_blog_steps.md)
-
-# Learning Objectives
-
-Students can:
-* Find out why we want students to blog.
-* Learn about various options for blogging platforms.
-* Get hands-on practice setting up their own github.io blog.
-
-# Depends On
-
-
-# Additional Resources
+* See [Blogging slides](Blogging.pdf) for an overview of blogging
+* See [Github.io blog setup](github_blog_steps.md) for instructions on an option to set up your own blog
