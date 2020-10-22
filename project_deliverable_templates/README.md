@@ -1,3 +1,5 @@
+## Metis Project Deliverable Instructions and Examples
+
 This folder contains templates/instructions for major project deliverables across Metis courses:
 * [Project Proposal](./project_proposal.md)
 * [Minimum Viable Product (MVP)](./mvp.md)
