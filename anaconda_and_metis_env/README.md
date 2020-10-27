@@ -4,4 +4,4 @@ Anaconda is an open-source distribution of Python and package management platfor
 
 * If you are **installing Anaconda for the first time**, see the detailed instructions [here](https://github.com/thisismetis/NBM_Metis_Fundamentals/tree/master/anaconda_and_metis_env/anaconda_installation) 
 
-* If you have already installed Anaconda, see [here](https://github.com/thisismetis/NBM_Metis_Fundamentals/blob/master/anaconda_and_metis_env/metis_env_instructions.md) for instructions on how to install and work within the **Metis Anaconda environment**
+* If you have **already installed Anaconda**, see [here](https://github.com/thisismetis/NBM_Metis_Fundamentals/blob/master/anaconda_and_metis_env/metis_env_instructions.md) for instructions on how to install and work within the Metis Anaconda environment
