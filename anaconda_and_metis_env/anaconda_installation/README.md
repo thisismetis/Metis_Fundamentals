@@ -1,5 +1,4 @@
-# Anaconda and Metis Environment Instructions
+# Installing Anaconda
 
-* See [You Gotta Blog](https://drive.google.com/file/d/1WfWUyckSKSNM01Adas8e7DWOERFoF5vu/view?ts=5f92c8d2) video, on how to leverage your blog to market yourself/your work and land an offer
-* See [Blogging slides](Blogging.pdf) for an overview of blogging
-* See [Github.io blog setup](github_blog_steps.md) for instructions on an option to set up your own blog
+* Follow the detailed [Anaconda installation instructions](./Anaconda_Installation.pdf)
+* Note the [practice jupyter notebook](practice_nb.ipynb) that falls under this folder, to be used for verifying installation as you go through the instructions.
