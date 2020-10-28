@@ -1,5 +1,7 @@
 # Data Science Introduction
 
+This lesson is a brief primer on the data science landscape, targeted toward students who are unfamiliar with major data science terms and components, or simply want a refresh of them.
+
 ## Sample Lesson Plan
 * (60m) [Data Science Introduction](DataScienceIntro.pdf)
 
