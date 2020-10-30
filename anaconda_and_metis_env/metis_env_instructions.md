@@ -27,9 +27,9 @@ receive a response indicating your current `conda` version.
 
 ### Installing the Metis Environment
 
-Now we'll run the code to install the metis environment.
+Now we'll run the code to install the metis environment. Note that installing the environment can take your computer a while, so please be patient!
 
-First, let's check if `conda` needs to be updated:
+First, run this command to make sure `conda` is up-to-date.
 
 ```bash
 conda update conda -y
