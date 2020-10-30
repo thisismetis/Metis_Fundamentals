@@ -20,9 +20,7 @@ of this in the cloud and give you access to it to build an environment locally, 
 
 ### Installing Anaconda
 
-If you haven't already, install the appropriate miniconda for your system from
-the link [here](https://docs.conda.io/en/latest/miniconda.html). **Be sure to
-select the python 3.\* version**.
+If you haven't already, follow the instructions [here](https://github.com/thisismetis/NBM_Metis_Fundamentals/tree/master/anaconda_and_metis_env/anaconda_installation) to **install an updated version of Anaconda** (with Python 3). 
 
 Next, check that `conda` is installed by running `conda -V` from your terminal. You should
 receive a response indicating your current `conda` version.
