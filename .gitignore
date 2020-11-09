@@ -1,0 +1,127 @@
+# Virtual Env
+env/
+
+# Working Files - not ready to be shared
+local/
+local*
+*local*
+
+# Ignore data files from student submissions
+challenges/solutions/data/*.txt
+challenges/**/submissions/**/*.txt
+challenges/**/submissions/**/*.csv
+challenges/**/submissions/**/*.dta
+challenges/**/submissions/**/*.pkl
+challenges/**/submissions/**/*.pickle
+
+projects/**/submissions/**/*.txt
+projects/**/submissions/**/*.csv
+projects/**/submissions/**/*.dta
+projects/**/submissions/**/*.pkl
+projects/**/submissions/**/*.pickle
+
+student_submissions/challenges/**/**/*.txt
+student_submissions/challenges/**/**/*.csv
+student_submissions/challenges/**/**/*.dta
+student_submissions/challenges/**/**/*.pkl
+student_submissions/challenges/**/**/*.pickle
+student_submissions/.DS_Store
+
+student_submissions/projects/**/**/*.txt
+student_submissions/projects/**/**/*.csv
+student_submissions/projects/**/**/*.dta
+student_submissions/projects/**/**/*.pkl
+student_submissions/projects/**/**/*.pickle
+
+
+#Ipython Notebook
+.ipynb_checkpoints
+_ct.ipynb
+#Ipython Notebook Temp files
+*copy*.ipynb
+untitled*
+untitled*.ipynb
+*Copy*.ipynb
+Untitled*
+Untitled*.ipynb
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# OSX Filesystem thing
+**/.DS_Store
+
+# Ignore Tree dot files
+*.dot
+
+# Ignore Database files
+*.db
+*.sqlite
+
+# Ignore temp files from other editors
+*~
+.#*
+.*.sw?
+.idea/
+*.dpkg-*
+*.exe
+*.ZILESAVE
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Ignore Selenium temp file
+chromedriver
+
+# C extensions
+*.so
+
+# Installer logs
+*.log
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*,cover
+.hypothesis/
+
+# Translations
+*.mo
+*.pot
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+*.ini
+*.pkl
