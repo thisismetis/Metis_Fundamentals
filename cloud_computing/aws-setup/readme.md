@@ -18,6 +18,6 @@ Students will be able to:
 
 # Additional Resources
 
-1. A common pain point is the public IP resetting each time you restart an instance. There are [instructions](optional_keeping_a_public_ip.md) on how to reserve an IP address for your instance.
+1. A common pain point is the public IP resetting each time you restart an instance. There are [instructions](optional_keeping_a_public_ip.md) on how to reserve an IP address for your instance
 
-2. A short description of URLs for ssh/scp can be found [here](../additional_materials/ssh_users_and_hosts.md).
+2. A short description of URLs for ssh/scp can be found [here](../additional_materials/ssh_users_and_hosts.md)
