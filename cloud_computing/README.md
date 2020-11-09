@@ -6,7 +6,7 @@ Metis students may want to leverage cloud computing when working on certain proj
 
 There are several different major cloud service providers with similar offerings, but we prefer [**Google Cloud**](./gcp-setup/readme.md) over [**Amazon Web Services (AWS)**](./aws-setup/readme.md), and also recommend looking into the [**Google Colab**](./google-colab-instructions/readme.md) platform for a more limited but completely free form of cloud computing (click links for instructions).   
 
-Below is a brief list of pros and cons for each option:
+Below is a **brief list of pros and cons** for each option:
 
 **Google Cloud**
 
