@@ -11,21 +11,35 @@ Below is a brief list of pros and cons for each option:
 **Google Cloud**
 
 Pros:
--$300 dollars of free credits for new users
--More accessible / user-friendly interface than AWS
+
+ - $300 dollars of free credits for new users
+ - More accessible / user-friendly interface than AWS
    
 Cons:
--Not yet as much of an industry standard as AWS
--Not permanently free like Colab
+
+  - Not yet as much of an industry standard as AWS
+  - Not permanently free like Colab
 
 **AWS**
 
 Pros:
--Industry standard with huge market share, making AWS experience likely to be particularly in demand
+  - Industry standard with huge market share, making AWS experience likely to be particularly in demand
    
 Cons:
--Expensive, no free credits
--Less accessible / user-friendly interface than GCP; those with strong DevOps skills will feel more comfortable
+  - Expensive, no free credits
+  - Less accessible / user-friendly interface than GCP; those with strong DevOps skills will feel more comfortable
+
+**Google Colab**
+
+Pros:
+
+  - Permanently free, including GPU access
+  - Very user friendly
+
+Cons:
+
+  - Computing and storage resources available are much more limited than GCP proper or AWS. 
+  - Fairly aggressively CPU and time constrained
 
 
 
