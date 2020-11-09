@@ -18,4 +18,4 @@ Students will be able to:
 
 ## Additional Resources
 
-A short description of URLs for ssh/scp [here](../additional_materials/ssh_users_and_hosts.md).
+A short description of URLs for ssh/scp [here](../additional_materials/ssh_users_and_hosts.md)
