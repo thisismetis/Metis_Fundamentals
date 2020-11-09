@@ -1,7 +1,9 @@
 # Cloud Computing
 
-Anaconda is an open-source distribution of Python and package management platform that makes it easier to install and update 
-the Python packages that are most commonly used in data-driven programming. 
+Cloud Computing is a catch-all term for the use of remote computing resources such as processors and storage solutions. Many companies heavily utilize these resources in order to reduce the costs of maintaining their own computing and database servers, and even an individual can benefit from flexible, easy, and temporary access to powerful machines.    
+
+Metis students may want to leverage cloud computing when working on certain projects involving large-scale data or complex models. An example of the former might be 10s of millions of transaction records that don't fit into local RAM, while an example of the latter might be a deep neural network (GPU access dramatically speed ups neural network training).   
+
 Metis students taking a course with Python programming are expected to use Anaconda, 
 and it **should be installed before the course begins, including the Metis environment**.  
 Installing the Metis environment is the easiest way to access all Python packages required in order to run course content code 
