@@ -12,7 +12,7 @@ GCP provides **$300 of free credits** to new users, but we still recommend consu
 ## Learning Objectives
 
 Students will be able to:
-- Set up a simple GCP virtual machine.
+- Set up a simple GCP virtual machine
 - Install Anaconda on that VM
 - Run a Jupyter notebook on that machine, accessed in the browser 
 
