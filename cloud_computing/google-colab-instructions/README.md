@@ -1,10 +1,17 @@
-It’s extremely user friendly (almost too much so) so in general, very easy to get started with. Off the top of my head, there’s a few things that are worth noting.
+[Google Colab](https://colab.research.google.com/) is very user friendly and relatively easy to get started with.
 
-It’s very important that students link their github and colab. They should follow these instructions and make sure that they are using a browser where they are signed into github.
+Below are several recommendations and warnings that we feel are worth highlighting.
 
-I recommend students all install the “open in colab” extension. This allows them to open notebooks directly from the github user interface.
+1. **Github & Colab**
 
-There are a bunch of ways to get data in and out of google colab. I strongly recommend students use a solution that can be scripted (like linking to google drive in the notebook code) and not solutions that require manual input (like uploading data from the local computer) more info: https://colab.research.google.com/notebooks/io.ipynb
+  It’s extremely useful to link github and colab (using the latter in a browser where you are signed into github). 
+You can install the **“open in colab”** github extension, which allows you to open notebooks directly from the github user interface.
+
+2. **File Transfer**
+
+  There are many ways to get data in and out of google colab. We strongly recommend that students use a solution that can be scripted (e.g. linking to google drive in the notebook code) instead of solutions that require manual input (e.g. uploading data from your local computer) More information can be found [here](https://colab.research.google.com/notebooks/io.ipynb).
+  
+  
 Colab’s free GPU is great but it takes some care to use it. There are two important caveats.
 
 First is that free Colab notebooks are aggressively CPU constrained. Users need to watch out for CPU bottlenecks and creatively work around them. Things like smaller batch sizes, caching pre-processed data, moving processing steps to GPU, etc.
