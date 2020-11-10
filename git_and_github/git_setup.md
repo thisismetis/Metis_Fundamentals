@@ -2,6 +2,10 @@
 
 ![alt text](https://imgs.xkcd.com/comics/git.png "XKCD")
 
+  
+    
+    
+This comic is an exaggeration, but it gets to the heart of the fact that git is entirely usable without being an expert. Git experience is always valuable, but our immediate goal with git is that you **grasp the basics required to download and update course repositories**.
 
 ---
 # The Basic Cycle
