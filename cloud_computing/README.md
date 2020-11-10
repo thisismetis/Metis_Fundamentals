@@ -6,7 +6,7 @@ Metis students may want to leverage cloud computing when working on certain proj
 
 There are several different major cloud service providers with similar offerings, but we prefer [**Google Cloud**](./gcp-setup/readme.md) over [**Amazon Web Services (AWS)**](./aws-setup/readme.md), and also recommend looking into the [**Google Colab**](./google-colab-instructions/readme.md) platform for a more limited but completely free form of cloud computing (click links for instructions).   
 
-Below is a **brief list of pros and cons** for each option:
+Below is a **brief list of pros and cons** for each option:  
 
 **Google Cloud**
 
@@ -18,7 +18,7 @@ Pros:
 Cons:
 
   - Not yet as much of an industry standard as AWS
-  - Not permanently free like Colab
+  - Not permanently free like Colab 
 
 **AWS**
 
@@ -27,7 +27,7 @@ Pros:
    
 Cons:
   - Expensive, no free credits
-  - Less accessible / user-friendly interface than GCP; those with strong DevOps skills will feel more comfortable
+  - Less accessible / user-friendly interface than GCP; those with strong DevOps skills will feel more comfortable 
 
 **Google Colab**
 
@@ -38,7 +38,7 @@ Pros:
 
 Cons:
 
-  - Computing and storage resources available are much more limited than GCP proper or AWS. 
+  - Computing and storage resources available are much more limited than GCP proper or AWS 
   - Fairly aggressively CPU and time constrained
 
 
