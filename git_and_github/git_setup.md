@@ -76,8 +76,7 @@ course material every day.
 ##  Go to repo
 While logged into your personal account on GitHub, go to the repo to be cloned.
 
-In this example, it is: https://github.com/thisismetis/onl20_ds4
-**>> NOTE:  bookmark this**
+For example, if you want to clone this repo it is: https://github.com/thisismetis/nbm_metis_fundamentals
 
 ---
 
