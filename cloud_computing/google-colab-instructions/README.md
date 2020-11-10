@@ -5,7 +5,7 @@ Below are several recommendations and warnings that we feel are worth highlighti
 **Github & Colab**
 
 * It’s extremely useful to link github and colab (using the latter in a browser where you are signed into github), following [these instructions](https://colab.research.google.com/github/googlecolab/colabtools/blob/master/notebooks/colab-github-demo.ipynb#scrollTo=Rmai0dD30XzL). 
-You can install the [**“open in colab”**](https://chrome.google.com/webstore/detail/open-in-colab/iogfkhleblhcpcekbiedikdehleodpjo?hl=en) github extension, which allows you to open notebooks directly from the github user interface.
+You can install the [“open in colab”](https://chrome.google.com/webstore/detail/open-in-colab/iogfkhleblhcpcekbiedikdehleodpjo?hl=en) github extension, which allows you to open notebooks directly from the github user interface.
 
 **File Transfer**
 
