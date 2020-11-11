@@ -26,15 +26,15 @@ Pros:
   - Industry standard with huge market share, making AWS experience likely to be particularly in demand
    
 Cons:
-  - Expensive, no free credits
-  - Less accessible / user-friendly interface than GCP; those with strong DevOps skills will feel more comfortable 
+  - No free credits
+  - Less accessible / user-friendly interface than GCP; those with stronger DevOps skills will feel more comfortable 
 
 **Google Colab**
 
 Pros:
 
   - Permanently free, including GPU access
-  - Very user friendly
+  - Very user friendly (very similar interface to the familiar jupyter notebook)
 
 Cons:
 
