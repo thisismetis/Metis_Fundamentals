@@ -87,7 +87,9 @@ Here is a [great video](https://www.youtube.com/watch?time_continue=4&v=Db4FfhXD
 **SSH into your GCP instance**
 In your terminal, enter 
 
-'''ssh -i <YOUR_KEYFILE_PATH> <YOUR_GCP_USERNAME>@<YOUR_GCP_EXTERNAL_IP>'''
+'''ssh -i [YOUR_KEYFILE_PATH] [YOUR_GCP_USERNAME]@[YOUR_GCP_EXTERNAL_IP]'''
+
+(You can find YOUR_GCP_EXTERNAL_IP in your GCP console / instance dashboard)  
 
 Enter "yes" when prompted and you should see your terminal name change to something like "username@instance", indicating that we're now accessing the remote instance.
 
@@ -119,8 +121,8 @@ Now that we have anaconda installed, start the jupyter server with
 
 ```jupyter notebook --ip=0.0.0.0 --port=8888 --no-browser &``` 
 
-Locally in a separate browser window, navigate to `[YOUR_EXTERNAL_GCP_IP]:8888` (you can find the ip in your GCP console). You should get a jupyter login prompt that asks for a token.
+Locally in a separate browser window, navigate to `[YOUR_EXTERNAL_GCP_IP]:8888` (remember you can find the ip in your GCP console). You should get a jupyter login prompt that asks for a token.
 
 In your instance terminal, look for where it shows a pattern like ?tokenTOKENNUMBERS and copy TOKENNUMBERS, and paste it into the web browser on your computer. 
-You should now see a regular jupyter screen where you can see files, notebooks, etc. that live on your instance, you're set!
+You should now see a regular jupyter screen where you can see files, notebooks, etc. that live on your instance. You're set!
 
