@@ -30,9 +30,11 @@ We've now generated a public SSH key! Next, print its text using:
 
 ## Configure Google Cloud
 
-In the GCP tab, click the navigation bar in the top left (three white lines near the Google Cloud Platform logo) and navigate to “Metadata” (Compute Engine > Settings > Metadata) and select "SSH Keys" at the top.
+**Add SSH Key**
 
-Hit edit, add item, then copy/paste the key we generated from terminal into the text box. GCP should confirm the format of the key and display your username on the left. Hit **save** to lock in the change. 
+In the GCP tab, click the navigation bar in the top left (three white lines near the Google Cloud Platform logo) and navigate to “Metadata” (Compute Engine > Metadata) and select "SSH Keys" at the top.
+
+Hit edit, add item, then copy/paste the public key we generated from the terminal into the text box. GCP should confirm the format of the key and display your username on the left. Hit **save** to lock in the change. 
 
 
 **Configure Firewall to allow traffic to Port 8888**
@@ -49,7 +51,7 @@ In the GCP navigation menu, go to Networking > VPC Network > Firewall and click 
 
 Next, we need to create and activate a Virtual Machine instance. 
 
-In the navigation menu, go to Compute Engine > Virtual machines > VM instances and click **create**.
+In the navigation menu, go to Compute Engine > VM instances and click **create**.
 
 We have a bunch of options here for things like CPU/RAM allocations, for now we'll proceed with the default settings. Scroll down and click **create** then give it a bit for the instance to begin. 
 
@@ -82,10 +84,10 @@ You should now have a drag and drop interface where you can transfer files back 
 Here is a [great video](https://www.youtube.com/watch?time_continue=4&v=Db4FfhXDYS8&feature=emb_logo) for showing these steps. 
   
 
-**SSH into your GCP instance
+**SSH into your GCP instance**
 In your terminal, enter 
 
-'''ssh -i <keyfile_path> <gcp_username>@<external_ip>'''
+'''ssh -i <YOUR_KEYFILE_PATH> <YOUR_GCP_USERNAME>@<YOUR_GCP_EXTERNAL_IP>'''
 
 Enter "yes" when prompted and you should see your terminal name change to something like "username@instance", indicating that we're now accessing the remote instance.
 
