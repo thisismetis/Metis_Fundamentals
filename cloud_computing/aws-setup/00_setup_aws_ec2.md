@@ -7,9 +7,9 @@
   * Note:  bookmark it!
 
 2.  [AWS Free Tier](https://aws.amazon.com/free/)  
-  * credit card required for log-in
-  * designed to enable you to get hands-on experience with AWS Cloud Services
-  * includes services with a free tier available for 12 months following your AWS sign-up date, as well as additional service offers that do not automatically expire at the end of your 12 month AWS Free Tier term.
+  * Credit card required for log-in
+  * Designed to enable you to get hands-on experience with AWS Cloud Services
+  * Includes services with a free tier available for 12 months following your AWS sign-up date, as well as additional service offers that do not automatically expire at the end of your 12 month AWS Free Tier term
 
 3.  AWS Console  
   * Lot of options!  We will choose "Compute/EC2"  [upper left of screen]  
@@ -26,7 +26,7 @@
 
 ## Setting up Instance
 
-1. Choose an Amazon Machine Image (AMI), (5th in list):  **Ubuntu Server** [press blue Select button]
+1. Choose an Amazon Machine Image (AMI), (4th in list):  **Ubuntu Server** [press blue Select button]
 
   ![Select the Ubuntu Server](images/ec2_setup/01_select_server.png)
 2. Choose an Instance Type:  Select a **Free tier eligible** "t2.micro" instance
@@ -78,7 +78,7 @@
 ---
 
 ### Keypair
-Having this pem file on your local computer allows you to securely ssh into your ec2 instance.
+Having this pem file on your local computer allows you to securely ssh into your ec2 instance (note that aws pem public/private key pairs are just a special case of the encryption key pairs that are generally used to secure ssh connections).
 Save file to your Downloads folder (`~/Downloads` on OSX).
 
 Move your file to `~/.ssh/`.  (Note:  if you do not have an ssh folder, create one:  `mkdir ~/.ssh`)  
@@ -104,33 +104,9 @@ Notice how the permissions have been updated!
 
 ---
 
-### `ssh` keys
-Check that you have `id_rsa` and `id_rsa.pub` files within your `.ssh` folder  
-```bash
-ls ~/.ssh/*id_rsa*
-```
->Example:  
-```bash
-$ pwd
-  /Users/damien/.ssh
-$ ls -la *id_rsa*
-  -rw-------  1   1675 Jun  2  2018 id_rsa
-  -rw-r--r--  1    422 Jun  2  2018 id_rsa.pub
-```  
-
-#### Generate `ssh` keys
-If you do not have them, generate them with
-```
-ssh-keygen -t rsa
-```
-When asked where to save, the default location is correct (ex: /Users/username/.ssh/id_rsa),  so hit Enter.
-
-
----
-
 ## Connecting to your Instance  
 ### AWS:  
-**Launch Instance**
+**Click Big Launch Instance Button**
 
 ### Set Up Billing Alerts (Optional)
 1. Update your billing preferences to enable billing alerts by going to your account name on top right corner > **My Billing Dashboard** > **Billing Preferences**. 
@@ -152,6 +128,8 @@ Do **not** use the private IP address.
 1. Open a new terminal window.
 
   **YOU MUST OPEN A NEW WINDOW**
+  
+    
 2. Type the following command (the starting directory doesn't matter)
 ```bash
 $ ssh -i ~/.ssh/aws_key.pem ubuntu@<my_public_ip>
@@ -211,7 +189,7 @@ Connection to 18.216.164.22 closed.
 ```
 
 If you won't be using your EC2 instance for a while, stop the running instance by right clicking on the instance > Instance State > Stop.
-This will prevent your EC2 instance from incurring hours while it's sitting idel. To start the instance back up again, 
+This will prevent your EC2 instance from incurring hours while it's sitting idle. To start the instance back up again, 
 follow the same steps and click Start instead of Stop. Recall that the instance's public IP address will change with each time, 
 so make note of the new IP with each restart.
 
