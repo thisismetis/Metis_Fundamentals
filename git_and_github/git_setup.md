@@ -67,14 +67,9 @@ You never need to do these steps again.
 
 ---
 
-# Part 2. Forking and Cloning a Repo
+# Part 2. Cloning a Repo
 
-Cloning a repo makes a copy of a repo on Github onto your computer. Every time you make changes on your local machine, you can then push the changes to the repo on Github.
-
-In this case, we're actually going to be forking and then cloning a repo. The reason for this is because we don't want you to be pushing changes directly to the main thisismetis/onl20_ds4 repo.
-
-By forking the repo, you're going to create your own copy of the repo on Github. This is what you'll then be cloning onto your computer. You'll be able to commit edits to your forked repo without affecting the main repo, while still being in sync with updated
-course material every day.
+Cloning a repo creates a copy of a repo on Github that lives on your computer. Normally, every time you make changes on your local machine, you can then push the changes to the repo on Github. In this case, since we don't want official course content to be overwritten by student updates, you will **only have permission to pull** from the repo to sync your local version with updated course material.
 
 
 ##  Go to repo
@@ -84,6 +79,55 @@ For example, if you want to clone this repo it is: https://github.com/thisismeti
 
 ---
 
+##  Clone repo
+Clone that repo.
+
+In right column, find the link to **Clone with HTTPS** and copy that URL to be cloned.
+Next, open a **command line prompt** (e.g. terminal on mac), and navigate to any directory
+such as home (~) where you would like to save your cloned repo. 
+
+```
+$ cd ~
+$ git clone https://github.com/<your_username>/nbm_metis_fundamentals.git
+$ cd nbm_metis_fundamentals
+```
+
+#### Potential Extra Step:
+You might run into an error if you've already cloned the repo in this location before. If that's the case, remove the old repo (assuming you don't have any changes in it that you want to save) with the line below and try to git clone again.
+
+```
+$ rm -rf nbm_metis_fundamentals
+```
+
+---
+
+# Part 3. Pulling Updates
+
+You should do this whenever instructors inform you of changes to the course repo, but feel free to do it even more frequently (even every day). If there are no changes, git will simply notify you that everything is up-to-date. 
+
+```
+$ git pull origin master
+```
+```
+remote: Counting objects: 55, done.
+remote: Compressing objects: 100% (31/31), done.
+remote: Total 55 (delta 9), reused 0 (delta 0), pack-reused 24
+Unpacking objects: 100% (55/55), done.
+From https://github.com/thisismetis/nbm_metis_fundamentals
+ * branch            master     -> FETCH_HEAD
+ * [new branch]      master     -> upstream/master
+Updating 73c9b7f..e2fa70b
+Fast-forward
+...
+```
+
+
+---
+
+**Note:**  
+GitHub commit every day, green dots show up on user home page and it looks good for potential employers.
+
+# OPTIONAL: FORK REPO
 
 ##  Fork repo
 Upper right of github page: "Fork" the repo
@@ -93,27 +137,12 @@ Go to your forked repo: https://github.com/your_username/onl20_ds4
 
 ---
 
+Cloning a repo creates a copy of a repo on Github that lives on your computer. Every time you make changes on your local machine, you can then push the changes to the repo on Github.
 
-##  Clone repo
-Clone that forked repo (which is now under your name).
+In this case, we're actually going to be forking and then cloning a repo. The reason for this is because we don't want you to be pushing changes directly to the main thisismetis/onl20_ds4 repo.
 
-In right column, find the link to **Clone with HTTPS** and copy that URL to be cloned.
-
-```
-$ cd ~
-$ git clone https://github.com/<your_username>/onl20_ds4.git
-$ cd onl20_ds4
-```
-
-#### Potential Extra Step:
-You might run into an error if you've already cloned the repo before. If that's the case, remove the old repo (assuming you don't have any changes in it that you want to save) with the line below and try to git clone again.
-
-```
-$ rm -rf onl20_ds4
-```
-
----
-
+By forking the repo, you're going to create your own copy of the repo on Github. This is what you'll then be cloning onto your computer. You'll be able to commit edits to your forked repo without affecting the main repo, while still being in sync with updated
+course material every day.
 
 ## Set upstream
 
@@ -154,31 +183,3 @@ upstream	https://github.com/thisismetis/onl20_ds4.git (push)
 ```
 
 You are now done with this section and you won't have to do it again as long as you're working with the onl20_ds4 repo. If you want to fork another public repo on Github, you'll need to follow these same steps.
-
----
-
-# Part 3. Daily Pull
-
-You'll do this every morning: pull the latest updates from thisismetis/onl20_ds4.
-
-```
-$ git pull upstream master
-```
-```
-remote: Counting objects: 55, done.
-remote: Compressing objects: 100% (31/31), done.
-remote: Total 55 (delta 9), reused 0 (delta 0), pack-reused 24
-Unpacking objects: 100% (55/55), done.
-From https://github.com/thisismetis/onl20_ds4
- * branch            master     -> FETCH_HEAD
- * [new branch]      master     -> upstream/master
-Updating 73c9b7f..e2fa70b
-Fast-forward
-...
-```
-
-
----
-
-**Note:**  
-GitHub commit every day, green dots show up on user home page and it looks good for potential employers.
