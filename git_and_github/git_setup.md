@@ -5,7 +5,7 @@
   
     
     
-This comic is an exaggeration, but it gets to the heart of the fact that git is entirely usable without being an expert. Git experience is always valuable, but our immediate goal with git is that you **grasp the basics required to download and update course repositories**.
+This comic is an exaggeration, but it gets to the heart of the fact that git is entirely usable without being an expert. Git experience is always valuable, but our immediate goal with git is that you **grasp the basics required to download, update, and effectively work in course repositories**.
 
 ---
 # The Basic Cycle
@@ -35,14 +35,16 @@ Don't worry it's hard to mess up too badly.
 
 # Getting started  
 
-This flow works well for personal use and small teams, but with this many git newbs it would be chaos.
+We are going to have you clone each course repo to access course materials, pulling updates to the repo as needed.
+You may **optionally work with a fork** of the repo that you can directly edit, but this involves additional setup and repo
+management that is not necessary for successfully completing a course (see section 5 for more detail). 
 
-Instead we are going to have you each fork the curriculum repo, where you will have complete control. 
-
-#### This walk through is divided into 4 parts:
+#### This walkthrough is divided into 5 parts:
 1. Setup steps you'll only ever need to do once
 2. Setup steps for every time you clone a new repo
-3. What you need to do daily to get updated curriculum
+3. What you need to do to get updated curriculum
+4. What you need to do when using curriculum (to avoid merge conflicts)
+5. *Optional variant*: fork and clone  
 ---
 
 
@@ -55,14 +57,14 @@ $ git --version
 $ git config --list
 ```
 
-Make sure your name and email are correct. If not, then do:
+Make sure your name and email are correct. If not, then do (with your name and email!):
 
 ```
 $ git config --global user.name "Joan Wang"
 $ git config --global user.email "my_email_address@gmail.com"
 ```
 
-You never need to do these steps again.
+You should never need to do these steps again.
 
 
 ---
@@ -92,7 +94,7 @@ $ git clone https://github.com/<your_username>/nbm_metis_fundamentals.git
 $ cd nbm_metis_fundamentals
 ```
 
-#### Potential Extra Step:
+#### Potential extra step:
 You might run into an error if you've already cloned the repo in this location before. If that's the case, remove the old repo (assuming you don't have any changes in it that you want to save) with the line below and try to git clone again.
 
 ```
@@ -124,8 +126,11 @@ Fast-forward
 
 ---
 
-**Note:**  
-GitHub commit every day, green dots show up on user home page and it looks good for potential employers.
+# Part 4. Working with Curriculum Content
+
+---
+
+# Part 5. Optional Variant: Fork and Clone a Repo
 
 # OPTIONAL: FORK REPO
 
