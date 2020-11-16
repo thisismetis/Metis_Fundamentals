@@ -105,6 +105,22 @@ Fast-forward
 
 # Part 4. Working with Curriculum Content
 
+When modifying local copies of course content and pulling updates from a course github repo, it is possible to encounter "merge conflicts". This happens when local file versions are not fully aligned with remote versions, and be caused by something as simple as just opening a jupyter notebook.
+
+Luckily, there are two easy ways to avoid or solve these conflicts (we recommend the 1st):
+
+1. Work with copies of notebooks instead of the original
+  * Whenever opening a course jupyter notebook, we recommend first copying it and adding "\_copy" to the filename. This way, you will have a clean local copy of the file that you can run and take notes in without modifying the original (note that due to `.gitignore` files, filenames including patterns like "copy" will not even show up under untracked files when running `git status`.
+
+Example:
+
+```
+$ cp Linear_Regression_Theory_Intro.ipynb Linear_Regression_Theory_Intro_copy.ipynb # create clean copy of nb
+$ jupyter notebook Linear_Regression_Theory_Intro_copy.ipynb # run clean copy in jupyter 
+```
+ 
+
+
 ---
 
 # Part 5. Optional Variant: Fork and Clone a Repo
