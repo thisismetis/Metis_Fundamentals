@@ -35,14 +35,14 @@ Don't worry it's hard to mess up too badly.
 
 # Getting started  
 
-We are going to have you clone each course repo to access course materials, pulling updates to the repo as needed.
+We are going to have you **clone each course repo** to access course materials, pulling updates to the repo as needed.
 You may **optionally work with a fork** of the repo that you can directly edit, but this involves additional setup and repo
 management that is not necessary for successfully completing a course (see section 5 for more detail). 
 
 #### This walkthrough is divided into 5 parts:
 1. Setup steps you'll only ever need to do once
 2. Setup steps for every time you clone a new repo
-3. What you need to do to get updated curriculum
+3. What you need to do to get updated curriculum (pulling)
 4. What you need to do when using curriculum (to avoid merge conflicts)
 5. *Optional variant*: fork and clone  
 ---
@@ -132,28 +132,22 @@ Fast-forward
 
 # Part 5. Optional Variant: Fork and Clone a Repo
 
-# OPTIONAL: FORK REPO
-
 ##  Fork repo
 Upper right of github page: "Fork" the repo
 
-Go to your forked repo: https://github.com/your_username/onl20_ds4
+Go to your forked repo: https://github.com/your_username/nbm_metis_fundamentals
 **>> NOTE:  bookmark this**
 
 ---
 
-Cloning a repo creates a copy of a repo on Github that lives on your computer. Every time you make changes on your local machine, you can then push the changes to the repo on Github.
-
-In this case, we're actually going to be forking and then cloning a repo. The reason for this is because we don't want you to be pushing changes directly to the main thisismetis/onl20_ds4 repo.
-
-By forking the repo, you're going to create your own copy of the repo on Github. This is what you'll then be cloning onto your computer. You'll be able to commit edits to your forked repo without affecting the main repo, while still being in sync with updated
-course material every day.
+By forking the repo, you're going to create your own, editable copy of the repo on Github. This is what you'll then be cloning onto your computer. You'll be able to commit/push edits to your forked repo without affecting the main repo, while still being in sync with updated
+course material by pulling.
 
 ## Set upstream
 
 There are now a few repos that we're dealing with:
-1. The Metis repo on Github - thisismetis/onl20_ds4 (upstream)
-2. The forked repo on Github - your_username/onl20_ds4 (origin)
+1. The Metis repo on Github - thisismetis/nbm_metis_fundamentals (upstream)
+2. The forked repo on Github - your_username/nbm_metis_fundamentals (origin)
 3. Your local copy of the forked repo
 
 When you pull updates to your local repo, they will come from the forked repo on Github. If there are changes to the Metis repo, how do you get them?  You need to tell your local repo that it can also get updates from the Metis repo.
