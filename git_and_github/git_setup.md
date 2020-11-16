@@ -5,7 +5,7 @@
   
     
     
-This comic is an exaggeration, but it gets to the heart of the fact that git is entirely usable without being an expert. Git experience is always valuable, but our immediate goal with git is that you **grasp the basics required to download, update, and effectively work in course repositories**.
+This comic is an exaggeration, but it gets to the heart of the fact that git is entirely usable without being an expert. Git experience is always valuable, but our immediate goal with git is that you **grasp the basics required to download, update, and effectively work in course repositories**. Also note that with git, when things go wrong it is typically easy to fix mistakes or even to start from scratch, especially with the help of an instructor.
 
 ---
 
@@ -107,10 +107,11 @@ Fast-forward
 
 When modifying local copies of course content and pulling updates from a course github repo, it is possible to encounter "merge conflicts". This happens when local file versions are not fully aligned with remote versions, and be caused by something as simple as just opening a jupyter notebook.
 
-Luckily, there are two easy ways to avoid or solve these conflicts (we recommend the 1st):
+Luckily, there are two easy ways to avoid or solve these conflicts so that you can continue to successfully pull (we recommend the 1st):
 
-1. Work with copies of notebooks instead of the original
-  * Whenever opening a course jupyter notebook, we recommend first copying it and adding "\_copy" to the filename. This way, you will have a clean local copy of the file that you can run and take notes in without modifying the original (note that due to `.gitignore` files, filenames including patterns like "copy" will not even show up under untracked files when running `git status`.
+**Work with copies of notebooks instead of the original**
+
+Whenever opening a course jupyter notebook, we recommend first copying it and adding "\_copy" to the filename. This way, you will have a clean local copy of the file that you can run and take notes in without modifying the original (note that due to `.gitignore` files, filenames including patterns like "copy" will not even show up under untracked files when running `git status`.
 
 Example:
 
@@ -119,7 +120,17 @@ $ cp Linear_Regression_Theory_Intro.ipynb Linear_Regression_Theory_Intro_copy.ip
 $ jupyter notebook Linear_Regression_Theory_Intro_copy.ipynb # run clean copy in jupyter 
 ```
  
+**Revert modified notebook to original metis version using git checkout**
 
+When a file tracked by git has been modified, it is fairly easy to realign/reset it to the version present in a different git/github repo by using the `git checkout` command. Note that the downside of doing so is that you'll lose any edits or personal notes, which is part of why we prefer the approach of copying in advance instead.  
+
+Example:
+
+```
+$ git checkout origin/master Linear_Regression_Theory_Intro.ipynb # set this notebook to the version in the remote origin/master
+```
+
+Note that if you've (inadvertently) commited file modifications that cause conflicts to your git log, you'll need to also commit the reversions done through checkout commands before being able to pull without conflict again. 
 
 ---
 
