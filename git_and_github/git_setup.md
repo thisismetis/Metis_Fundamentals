@@ -8,29 +8,6 @@
 This comic is an exaggeration, but it gets to the heart of the fact that git is entirely usable without being an expert. Git experience is always valuable, but our immediate goal with git is that you **grasp the basics required to download, update, and effectively work in course repositories**.
 
 ---
-# The Basic Cycle
-
-Remember this and everything will be fine.
-
-```
-git pull
-<make your changes>
-git add <file name> (or . for all files)
-git commit -m 'change description'
-git pull
-git push
-```
-
-For our class, we are going to add a few steps.
-
----
-
-Don't worry it's hard to mess up too badly.
-
-![burn it all down](http://i.imgur.com/XFQLB.jpg)
-
-
----
 
 
 # Getting started  
@@ -44,7 +21,7 @@ management that is not necessary for successfully completing a course (see secti
 2. Setup steps for every time you clone a new repo
 3. What you need to do to get updated curriculum (pulling)
 4. What you need to do when using curriculum (to avoid merge conflicts)
-5. *Optional variant*: fork and clone  
+5. *Optional variant*: fork and clone (replaces steps 2 and 3)  
 ---
 
 
@@ -90,7 +67,7 @@ such as home (~) where you would like to save your cloned repo.
 
 ```
 $ cd ~
-$ git clone https://github.com/<your_username>/nbm_metis_fundamentals.git
+$ git clone https://github.com/thisismetis/nbm_metis_fundamentals.git
 $ cd nbm_metis_fundamentals
 ```
 
@@ -132,41 +109,40 @@ Fast-forward
 
 # Part 5. Optional Variant: Fork and Clone a Repo
 
+This variant in setup is not necessary, but may be helpful to those looking to develop their git experience or those who feel strongly about having a github-editable version of course materials. If you are following this variant, it should **replace steps 2 and 3 above**. 
+
 ##  Fork repo
 Upper right of github page: "Fork" the repo
 
-Go to your forked repo: https://github.com/your_username/nbm_metis_fundamentals
+Go to your forked repo: https://github.com/[YOUR_USERNAME]/nbm_metis_fundamentals
 **>> NOTE:  bookmark this**
 
 ---
 
-By forking the repo, you're going to create your own, editable copy of the repo on Github. This is what you'll then be cloning onto your computer. You'll be able to commit/push edits to your forked repo without affecting the main repo, while still being in sync with updated
-course material by pulling.
+By forking the repo, you create your own, editable copy of the repo on Github. This fork is what you'll then be cloning onto your computer, with the `git clone https://github.com/[YOUR_USERNAME]/nbm_metis_fundamentals.git` command as in part 2. You'll be able to commit/push edits to your forked repo without affecting the main repo, while still being in sync with updated
+course material by pulling from the original, "upstream" repo.
 
 ## Set upstream
 
 There are now a few repos that we're dealing with:
 1. The Metis repo on Github - thisismetis/nbm_metis_fundamentals (upstream)
-2. The forked repo on Github - your_username/nbm_metis_fundamentals (origin)
+2. The forked repo on Github - [YOUR_USERNAME]/nbm_metis_fundamentals (origin)
 3. Your local copy of the forked repo
 
-When you pull updates to your local repo, they will come from the forked repo on Github. If there are changes to the Metis repo, how do you get them?  You need to tell your local repo that it can also get updates from the Metis repo.
+When you pull updates to your local repo, they will come from the forked repo on Github by default. If there are changes to the Metis repo, how do you get them? You need to tell your local repo that it can also get updates from the Metis repo.
 
-* Origin: `your_usernames/onl20_ds4`
-* Upstream: `thisismetis/onl20_ds4`
-
-Currently, we are tracking one remote repo:
+Currently, we are tracking one remote (on github) repo:
 ```
 $ git remote -v
-origin	https://github.com/<your_username>/onl20_ds4.git (fetch)
-origin	https://github.com/<your_username>/onl20_ds4.git (push)
+origin	https://github.com/<your_username>/nbm_metis_fundamentals.git (fetch)
+origin	https://github.com/<your_username>/nbm_metis_fundamentals.git (push)
 ```
 ---
 
 Add a reference to the thisismetis repo (can be called upstream, root, etc.):
 
 ```
-$ git remote add upstream https://github.com/thisismetis/onl20_ds4.git
+$ git remote add upstream https://github.com/thisismetis/nbm_metis_fundamentals.git
 ```
 
 Now we see we have two remotes:
@@ -175,10 +151,22 @@ Now we see we have two remotes:
 
 ```
 $ git remote -v
-origin	https://github.com/<your_username>/onl20_ds4.git (fetch)
-origin	https://github.com/<your_username>/onl20_ds4.git (push)
-upstream	https://github.com/thisismetis/onl20_ds4.git (fetch)
-upstream	https://github.com/thisismetis/onl20_ds4.git (push)
+origin	https://github.com/[YOUR_USERNAME]/nbm_metis_fundamentals.git (fetch)
+origin	https://github.com/[YOUR_USERNAME]/nbm_metis_fundamentals.git (push)
+upstream	https://github.com/thisismetis/nbm_metis_fundamentals.git (fetch)
+upstream	https://github.com/thisismetis/nbm_metis_fundamentals.git (push)
 ```
 
-You are now done with this section and you won't have to do it again as long as you're working with the onl20_ds4 repo. If you want to fork another public repo on Github, you'll need to follow these same steps.
+You can now work within your local copy of the repo, and sync with any updates to the metis (upstream) repo with: 
+
+```
+$ git pull upstream master
+``` 
+
+As an additional step, you can push local changes to your github fork in order to fully sync all 3 repos with:
+
+```
+$ git push origin master
+``` 
+
+If you want to fork another public repo on Github, you'll need to follow these same steps.
