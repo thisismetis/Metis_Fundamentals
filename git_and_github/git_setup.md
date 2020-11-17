@@ -1,4 +1,4 @@
-# Git and Github
+# Git and GitHub
 
 ![alt text](https://imgs.xkcd.com/comics/git.png "XKCD")
 
@@ -48,7 +48,7 @@ You should never need to do these steps again.
 
 # Part 2. Cloning a Repo
 
-Cloning a repo creates a copy of a repo on Github that lives on your computer. Normally, every time you make changes on your local machine, you can then push the changes to the repo on Github. In this case, since we don't want official course content to be overwritten by student updates, you will **only have permission to pull** from the repo to sync your local version with updated course material.
+Cloning a repo creates a copy of a repo on GitHub that lives on your computer. Normally, every time you make changes on your local machine, you can then push the changes to the repo on GitHub. In this case, since we don't want official course content to be overwritten by student updates, you will **only have permission to pull** from the repo to sync your local version with updated course material.
 
 
 ##  Go to repo
@@ -85,7 +85,7 @@ $ rm -rf nbm_metis_fundamentals
 You should do this whenever instructors inform you of changes to the course repo, but feel free to do it even more frequently (even every day). If there are no changes, git will simply notify you that everything is up-to-date. 
 
 ```
-$ git pull origin master
+$ git pull origin main
 ```
 ```
 remote: Counting objects: 55, done.
@@ -94,7 +94,7 @@ remote: Total 55 (delta 9), reused 0 (delta 0), pack-reused 24
 Unpacking objects: 100% (55/55), done.
 From https://github.com/thisismetis/nbm_metis_fundamentals
  * branch            master     -> FETCH_HEAD
- * [new branch]      master     -> upstream/master
+ * [new branch]      master     -> upstream/main
 Updating 73c9b7f..e2fa70b
 Fast-forward
 ...
@@ -127,7 +127,7 @@ When a file tracked by git has been modified, it is fairly easy to realign/reset
 Example:
 
 ```
-$ git checkout origin/master Linear_Regression_Theory_Intro.ipynb # set this notebook to the version in the remote origin/master
+$ git checkout origin/main Linear_Regression_Theory_Intro.ipynb # set this notebook to the version in the remote origin/main
 ```
 
 Note that if you've (inadvertently) commited file modifications that cause conflicts to your git log, you'll need to also commit the reversions done through checkout commands before being able to pull without conflict again. 
@@ -187,13 +187,13 @@ upstream	https://github.com/thisismetis/nbm_metis_fundamentals.git (push)
 You can now work within your local copy of the repo, and sync with any updates to the metis (upstream) repo with: 
 
 ```
-$ git pull upstream master
+$ git pull upstream main
 ``` 
 
 As an additional step, you can push local changes to your github fork in order to fully sync all 3 repos with:
 
 ```
-$ git push origin master
+$ git push origin main
 ``` 
 
 If you want to fork another public repo on Github, you'll need to follow these same steps.
