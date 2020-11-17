@@ -138,6 +138,14 @@ Note that if you've (inadvertently) commited file modifications that cause confl
 
 This variant in setup is not necessary, but may be helpful to those looking to develop their git experience or those who feel strongly about having a GitHub-editable version of course materials. If you are following this variant, it should **replace steps 2 and 3 above**. 
 
+##  Go to repo
+While logged into your personal account on GitHub, go to the repo to be forked then cloned.
+
+For example, if you want to fork/clone this repo it is: https://github.com/thisismetis/nbm_metis_fundamentals
+
+---
+
+
 ##  Fork repo
 Upper right of github page: "Fork" the repo
 
