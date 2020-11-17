@@ -16,7 +16,7 @@ serve as a check on your project progress. In its simplest terms, you can think 
  * MVPs should be a **short markdown file** or jupyter notebook showcasing initial findings/models.  
  * Select a very small number of plots or relevant visuals (1 or 2 sounds perfect) from your project.
  * Pull out the plots, give them concise captions/context, and write up your initial conclusions. 
- * Refer to the regression project [MVP example](./examples/mvp_example.md) for a handy, simple example. 
+ * Refer to the regression project [MVP example](./project_deliverable_examples/regression/regression_mvp_ex.md) for a handy, simple example. 
  
 # Don't overthink it.
 
