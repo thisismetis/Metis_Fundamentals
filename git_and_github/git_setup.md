@@ -105,13 +105,13 @@ Fast-forward
 
 # Part 4. Working with Curriculum Content
 
-When modifying local copies of course content and pulling updates from a course github repo, it is possible to encounter "merge conflicts". This happens when local file versions are not fully aligned with remote versions, and be caused by something as simple as just opening a jupyter notebook.
+When modifying local copies of course content and pulling updates from a course github repo, it is possible to encounter "merge conflicts". This happens when local file versions are not fully aligned with remote versions, and may be caused by something as simple as just opening a jupyter notebook.
 
 Luckily, there are two easy ways to avoid or solve these conflicts so that you can continue to successfully pull (we recommend the 1st):
 
-**Work with copies of notebooks instead of the original**
+**1. Work with copies of notebooks instead of the original**
 
-Whenever opening a course jupyter notebook, we recommend first copying it and adding "\_copy" to the filename. This way, you will have a clean local copy of the file that you can run and take notes in without modifying the original (note that due to `.gitignore` files, filenames including patterns like "copy" will not even show up under untracked files when running `git status`.
+Whenever opening a course jupyter notebook, we recommend first copying it and adding "\_copy" to the filename. This way, you will have a clean local copy of the file that you can run and take notes in without modifying the original (note that due to `.gitignore` files, filenames including patterns like "copy" will not even show up under untracked files when running `git status`).
 
 Example:
 
@@ -120,7 +120,7 @@ $ cp Linear_Regression_Theory_Intro.ipynb Linear_Regression_Theory_Intro_copy.ip
 $ jupyter notebook Linear_Regression_Theory_Intro_copy.ipynb # run clean copy in jupyter 
 ```
  
-**Revert modified notebook to original metis version using git checkout**
+**2. Revert modified notebook back to original metis version using git checkout**
 
 When a file tracked by git has been modified, it is fairly easy to realign/reset it to the version present in a different git/github repo by using the `git checkout` command. Note that the downside of doing so is that you'll lose any edits or personal notes, which is part of why we prefer the approach of copying in advance instead.  
 
@@ -136,7 +136,7 @@ Note that if you've (inadvertently) commited file modifications that cause confl
 
 # Part 5. Optional Variant: Fork and Clone a Repo
 
-This variant in setup is not necessary, but may be helpful to those looking to develop their git experience or those who feel strongly about having a github-editable version of course materials. If you are following this variant, it should **replace steps 2 and 3 above**. 
+This variant in setup is not necessary, but may be helpful to those looking to develop their git experience or those who feel strongly about having a GitHub-editable version of course materials. If you are following this variant, it should **replace steps 2 and 3 above**. 
 
 ##  Fork repo
 Upper right of github page: "Fork" the repo
@@ -146,7 +146,7 @@ Go to your forked repo: https://github.com/[YOUR_USERNAME]/nbm_metis_fundamental
 
 ---
 
-By forking the repo, you create your own, editable copy of the repo on Github. This fork is what you'll then be cloning onto your computer, with the `git clone https://github.com/[YOUR_USERNAME]/nbm_metis_fundamentals.git` command as in part 2. You'll be able to commit/push edits to your forked repo without affecting the main repo, while still being in sync with updated
+By forking the repo, you create your own, editable copy of the repo on GitHub. This fork is what you'll then be cloning onto your computer, with the `git clone https://github.com/[YOUR_USERNAME]/nbm_metis_fundamentals.git` command as in part 2. You'll be able to commit/push edits to your forked repo without affecting the main repo, while still being in sync with updated
 course material by pulling from the original, "upstream" repo.
 
 ## Set upstream
@@ -158,7 +158,7 @@ There are now a few repos that we're dealing with:
 
 When you pull updates to your local repo, they will come from the forked repo on Github by default. If there are changes to the Metis repo, how do you get them? You need to tell your local repo that it can also get updates from the Metis repo.
 
-Currently, we are tracking one remote (on github) repo:
+Currently, we are tracking one remote (on GitHub) repo:
 ```
 $ git remote -v
 origin	https://github.com/<your_username>/nbm_metis_fundamentals.git (fetch)
@@ -190,10 +190,10 @@ You can now work within your local copy of the repo, and sync with any updates t
 $ git pull upstream main
 ``` 
 
-As an additional step, you can push local changes to your github fork in order to fully sync all 3 repos with:
+As an additional step, you can push local changes to your GitHub fork in order to fully sync all 3 repos with:
 
 ```
 $ git push origin main
 ``` 
 
-If you want to fork another public repo on Github, you'll need to follow these same steps.
+If you want to fork another public repo on GitHub, you'll need to follow these same steps.
