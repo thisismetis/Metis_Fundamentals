@@ -13,6 +13,7 @@ This personal repo should be useful beyond the course, as it gives you an easy w
 * ~1 page summarizing your work.
 * Begin with a ~100 word abstract highlighting the key details.
 * Follow the abstract with a breakdown of your project along the **5 major components**: design, data, algorithms, tools, communication.
+* See this [classification project writeup](./project_deliverable_examples/classification/classification_writeup_ex.md) for a good example.
 
 #### Code
 * Include any code files that were part of your project process or were used to create your final results, organized in the repo as you see fit.
