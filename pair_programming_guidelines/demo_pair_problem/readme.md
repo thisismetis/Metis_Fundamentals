@@ -13,4 +13,4 @@ Write a function that takes a list of names and returns a list of lists of tuple
 
 See [here - TO BE ADDED] for a video demonstrating pair programming to solve this problem.
 
-See [here](./Solution/pair_demo_solution.ipynb) for a solution.
+See [here](./solution/pair_demo_solution.ipynb) for a solution.
