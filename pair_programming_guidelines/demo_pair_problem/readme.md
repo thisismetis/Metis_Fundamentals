@@ -11,6 +11,6 @@ Write a function that takes a list of names and returns a list of lists of tuple
 #  [('Andrea', 'Cassandra'), ('Bob', 'Doug')]]
 ```
 
-See [here - TO BE ADDED] for a video demonstrating pair programming to solve this problem.
+See [here - TO BE ADDED]() for a video demonstrating pair programming to solve this problem.
 
 See [here](./solution/pair_demo_solution.ipynb) for a solution.
