@@ -6,7 +6,9 @@ Pair Programming is a style of problem solving where two people collaborate, typ
 
 It's hard to completely prevent driver and navigator tasks from overlapping, but key to the exercise that you **try to do so as much as possible**. Approaching pair problems from both perspectives will help you develop your problem solving skills along with your ability to be an effective technical collaborator.
 
-When taking a Metis immersive course, **on most days you will do a pair programming exercise**, and you will get a mix of experience as driver and navigator. Refer to the short algorithm below as a way to decide who will drive vs. who will navigate based on the day of the week, and remember to stick to your role as much as possible! 
+When taking a Metis immersive course, **on most days you will do a pair programming exercise**, and you will get a mix of experience as driver and navigator. The purpose of pair programming is to hone your **problem solving, coding, and interviewing skills** while reviewing or learning concepts that are core to the module that you're taking. 
+
+Refer to the short algorithm below as a way to decide who will drive vs. who will navigate based on the day of the week, and remember to stick to your role as much as possible! 
 
 ## Pair "Drivers"
 
