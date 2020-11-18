@@ -22,4 +22,4 @@ Fridays | **latest** birthday month (or date if same month)
 
 ## Example Problem and Solution
 
-[Here -ADD]() is an example of a possible pair problem, along with a python solution. This is the problem that's tackled in the demo video. Note that this is actually a pretty tricky problem! It could take a while to solve on the fly.
+[Here](./demo_pair_problem) is an example of a possible pair problem, along with a python solution. This is the problem that's tackled in the demo video. Note that this is actually a pretty tricky problem! It could take a while to solve on the fly.
