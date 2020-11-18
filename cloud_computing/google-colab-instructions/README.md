@@ -13,6 +13,8 @@ You can install the [“open in colab”](https://chrome.google.com/webstore/det
   
 **GPU Use**
  
+* Using a GPU on colab should be as simple as turning on the GPU in your notebook settings and running your keras/tensorflow code. If you do encounter issues or need to look into more advanced GPU settings, [this page](https://colab.research.google.com/github/tensorflow/docs/blob/master/site/en/guide/gpu.ipynb) is a good starting point.  
+ 
 * Colab’s free GPU is great but it takes some care to use it. There are two important caveats:
   1. Free Colab notebooks are aggressively CPU constrained. Users need to watch out for CPU bottlenecks and creatively work around them. Techniques such as using smaller batch sizes, caching pre-processed data, moving processing steps to GPU, etc. can be very helpful.
 
