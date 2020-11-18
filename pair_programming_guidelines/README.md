@@ -23,3 +23,7 @@ Fridays | **latest** birthday month (or date if same month)
 ## Example Problem and Solution
 
 [Here](./demo_pair_problem) is an example of a possible pair problem, along with a python solution. This is the problem that's tackled in the demo video. Note that this is actually a pretty tricky problem! It could take a while to solve on the fly.
+
+## Additional Resources
+
+More on the benefits and pitfalls of [pair programming](https://www.agilealliance.org/glossary/pairing)
