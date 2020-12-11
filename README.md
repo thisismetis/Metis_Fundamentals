@@ -1,20 +1,33 @@
 Welcome to the Metis Fundamentals Repo!
 
-### Table of Contents
+## How to Use This Repo
 
-[**Anaconda and the Metis Environment**](./anaconda_and_metis_env):
+### The Metis Immersive Experience
 
-[**Blogging Guidelines**](./blog_guidelines)
+If you're taking **any Metis live online course**, we recommend that you:
 
-[**Cloud Computing**](./cloud_computing)
+  - Get [**introduced to the Metis model**](./metis_intro)
 
-[**Data Science Intro**](./data_science_intro)
+  - Learn about our daily [**pair programming exercises**](./pair_programming_guidelines)
 
-[**Git and Github**](./git_and_github)
+  - Get comfortable with our [**project deliverable guidelines**](./project_deliverable_templates)
 
-[**Intro to Metis**](./metis_intro)
+### Getting Set Up
 
-[**Pair Programming Guidelines**](./pair_programming_guidelines)
+If you're taking a Metis live online course that **requires python** (any course except for *Business*),
+you should complete our instructions for [**installing Anaconda and the Metis Anaconda environment**](./anaconda_and_metis_env)
 
-[**Project Deliverable Guidelines**](./project_deliverable_templates)
+Then, any student should work through our [**Git and GitHub setup instructions**](./git_and_github) to clone
+a local copy of the course repo(s) they need
 
+### And Resources Beyond
+
+Need to brush up on Data Science fundamentals -- concepts and terminology? 
+Check out our [**Data Science intro**](./data_science_intro)
+
+Looking to blog about your experience with Metis projects and courses?
+Check out our [**Blogging guidelines**](./blog_guidelines)
+
+Need to spin up a cloud server for an engineering, deep learning, 
+or large scale data project? 
+Check out our [**Cloud computing setup guidelines**](./cloud_computing)
