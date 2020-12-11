@@ -1,5 +1,9 @@
 Welcome to the Metis Fundamentals Repo!
 
+
+| ![Metis logo](/resources/metis.png)      |  [Metis](http://www.thisismetis.com/) Live Online    |
+|------|-------|  
+
 ## How to Use This Repo
 
 ### The Metis Immersive Experience
