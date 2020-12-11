@@ -54,7 +54,7 @@ Cloning a repo creates a copy of a repo on GitHub that lives on your computer. N
 ##  Go to repo
 While logged into your personal account on GitHub, go to the repo to be cloned.
 
-For example, if you want to clone this repo it is: https://github.com/thisismetis/nbm_metis_fundamentals
+For example, if you want to clone this repo it is: https://github.com/thisismetis/metis_fundamentals
 
 ---
 
@@ -67,15 +67,15 @@ such as home (~) where you would like to save your cloned repo.
 
 ```
 $ cd ~
-$ git clone https://github.com/thisismetis/nbm_metis_fundamentals.git
-$ cd nbm_metis_fundamentals
+$ git clone https://github.com/thisismetis/metis_fundamentals.git
+$ cd metis_fundamentals
 ```
 
 #### Potential extra step:
 You might run into an error if you've already cloned the repo in this location before. If that's the case, remove the old repo (assuming you don't have any changes in it that you want to save) with the line below and try to git clone again.
 
 ```
-$ rm -rf nbm_metis_fundamentals
+$ rm -rf metis_fundamentals
 ```
 
 ---
@@ -92,7 +92,7 @@ remote: Counting objects: 55, done.
 remote: Compressing objects: 100% (31/31), done.
 remote: Total 55 (delta 9), reused 0 (delta 0), pack-reused 24
 Unpacking objects: 100% (55/55), done.
-From https://github.com/thisismetis/nbm_metis_fundamentals
+From https://github.com/thisismetis/metis_fundamentals
  * branch            master     -> FETCH_HEAD
  * [new branch]      master     -> upstream/main
 Updating 73c9b7f..e2fa70b
@@ -141,7 +141,7 @@ This variant in setup is not necessary, but may be helpful to those looking to d
 ##  Go to repo
 While logged into your personal account on GitHub, go to the repo to be forked then cloned.
 
-For example, if you want to fork/clone this repo it is: https://github.com/thisismetis/nbm_metis_fundamentals
+For example, if you want to fork/clone this repo it is: https://github.com/thisismetis/metis_fundamentals
 
 ---
 
@@ -149,19 +149,19 @@ For example, if you want to fork/clone this repo it is: https://github.com/thisi
 ##  Fork repo
 Upper right of github page: "Fork" the repo
 
-Go to your forked repo: https://github.com/[YOUR_USERNAME]/nbm_metis_fundamentals
+Go to your forked repo: https://github.com/[YOUR_USERNAME]/metis_fundamentals
 **>> NOTE:  bookmark this**
 
 ---
 
-By forking the repo, you create your own, editable copy of the repo on GitHub. This fork is what you'll then be cloning onto your computer, with the `git clone https://github.com/[YOUR_USERNAME]/nbm_metis_fundamentals.git` command as in part 2. You'll be able to commit/push edits to your forked repo without affecting the main repo, while still being in sync with updated
+By forking the repo, you create your own, editable copy of the repo on GitHub. This fork is what you'll then be cloning onto your computer, with the `git clone https://github.com/[YOUR_USERNAME]/metis_fundamentals.git` command as in part 2. You'll be able to commit/push edits to your forked repo without affecting the main repo, while still being in sync with updated
 course material by pulling from the original, "upstream" repo.
 
 ## Set upstream
 
 There are now a few repos that we're dealing with:
-1. The Metis repo on Github - thisismetis/nbm_metis_fundamentals (upstream)
-2. The forked repo on Github - [YOUR_USERNAME]/nbm_metis_fundamentals (origin)
+1. The Metis repo on Github - thisismetis/metis_fundamentals (upstream)
+2. The forked repo on Github - [YOUR_USERNAME]/metis_fundamentals (origin)
 3. Your local copy of the forked repo
 
 When you pull updates to your local repo, they will come from the forked repo on Github by default. If there are changes to the Metis repo, how do you get them? You need to tell your local repo that it can also get updates from the Metis repo.
@@ -169,15 +169,15 @@ When you pull updates to your local repo, they will come from the forked repo on
 Currently, we are tracking one remote (on GitHub) repo:
 ```
 $ git remote -v
-origin	https://github.com/<your_username>/nbm_metis_fundamentals.git (fetch)
-origin	https://github.com/<your_username>/nbm_metis_fundamentals.git (push)
+origin	https://github.com/<your_username>/metis_fundamentals.git (fetch)
+origin	https://github.com/<your_username>/metis_fundamentals.git (push)
 ```
 ---
 
 Add a reference to the thisismetis repo (can be called upstream, root, etc.):
 
 ```
-$ git remote add upstream https://github.com/thisismetis/nbm_metis_fundamentals.git
+$ git remote add upstream https://github.com/thisismetis/metis_fundamentals.git
 ```
 
 Now we see we have two remotes:
@@ -186,10 +186,10 @@ Now we see we have two remotes:
 
 ```
 $ git remote -v
-origin	https://github.com/[YOUR_USERNAME]/nbm_metis_fundamentals.git (fetch)
-origin	https://github.com/[YOUR_USERNAME]/nbm_metis_fundamentals.git (push)
-upstream	https://github.com/thisismetis/nbm_metis_fundamentals.git (fetch)
-upstream	https://github.com/thisismetis/nbm_metis_fundamentals.git (push)
+origin	https://github.com/[YOUR_USERNAME]/metis_fundamentals.git (fetch)
+origin	https://github.com/[YOUR_USERNAME]/metis_fundamentals.git (push)
+upstream	https://github.com/thisismetis/metis_fundamentals.git (fetch)
+upstream	https://github.com/thisismetis/metis_fundamentals.git (push)
 ```
 
 You can now work within your local copy of the repo, and sync with any updates to the metis (upstream) repo with: 
