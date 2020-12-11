@@ -1,7 +1,7 @@
 Welcome to the Metis Fundamentals Repo!
 
 
-| ![Metis logo](/resources/metis.png)      |  [Metis](http://www.thisismetis.com/) Live Online    |
+| ![Metis logo](/images/metis.png)      |  [Metis](http://www.thisismetis.com/) Live Online    |
 |------|-------|  
 
 ## How to Use This Repo
