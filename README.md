@@ -6,7 +6,7 @@ Welcome to the Metis Fundamentals Repo!
 
 ## How to Use This Repo
 
-Each section below is tagged with the group of Metis students it's relevant to and the expected completion time. The first section contains the setup steps that **all Metis students** need to complete (Anaconda/Python and Git/GitHub), while the second section contains orientation content that **all students taking a two-week immersive course** are required to complete. For example, if you are only taking our Beginner Python and Math live online course, working through the first section will be sufficient. If instead you are taking e.g. our *Data Engineering* course as a standalone, you should work through both sections.
+Each section below is tagged with the group of Metis students for whom it's relevant, as well as the expected completion time. The first section contains the setup steps that **all Metis students** need to complete (Anaconda/Python and Git/GitHub), while the second section contains orientation content that **all students taking a two-week immersive course** or **enrolled in a bootcamp** are required to complete. For example, if you are only taking our Beginner Python and Math live online course, working through the first section will be sufficient. If instead you are taking e.g. our *Data Engineering* course as a standalone or enrolled in our *Data Science and Machine Learning bootcamp*, you should work through both sections.
 
 The final section contains a **variety of optional resources** -- we recommend seeing what's there and then digging further into what's most relevant or interesting to you.   
 
@@ -15,7 +15,7 @@ The final section contains a **variety of optional resources** -- we recommend s
 If you're taking any Metis online course that **requires Python** (any course except for the short immersive *Business* course),
 complete our instructions for [**installing Anaconda and the Metis Anaconda environment**](./anaconda_and_metis_env).
 
-Then, all students should work through our [**Git and GitHub setup instructions**](./git_and_github) to clone
+Then, all students must work through our [**Git and GitHub setup instructions**](./git_and_github) to clone
 a local copy of the course repo(s) they need.
 
 ### The Metis Immersive Experience (all Metis immersive students, ~1 hour) 
