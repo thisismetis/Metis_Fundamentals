@@ -14,7 +14,7 @@ See below for a complete tabular breakdown of **course offerings and the setup r
 | **Course Type** | **Course Titles**   |  **Setup Requirements**  |
 |:------|:-------|:-------|
 | Bootcamp Prep |  Beginner Python and Math for Data Science, Introduction to Data Science | Section 1 |
-| Short Immersive | Exploratory Data Analysis, Linear Regression and Web Scraping, Business Fundamentals for Data Science, Machine Learning Classification, Natural Language Processing & Unsupervised Learning, Deep Learning Fundamentals, Data Engineering for Data Science| Sections 1 & 2 |
+| Short Immersive | Exploratory Data Analysis, Linear Regression and Web Scraping, Business Fundamentals for Data Science, Machine Learning Classification, Natural Language Processing and Unsupervised Learning, Deep Learning Fundamentals, Data Engineering for Data Science| Sections 1 & 2 |
 | Bootcamp |  Data Analytics, Data Science, Data Science and Engineering, Data Science and Machine Learning | Sections 1 & 2 |
 
 The final section contains a **variety of optional resources** -- we recommend seeing what's there and then digging further into what's most relevant or interesting to you.   
