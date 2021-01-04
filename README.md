@@ -8,9 +8,18 @@ Welcome to the Metis Fundamentals Repo!
 
 Each section below is tagged with the group of Metis students for whom it's relevant, as well as the expected completion time. The first section contains the setup steps that **all Metis students** need to complete (Anaconda/Python and Git/GitHub), while the second section contains orientation content that **all students taking a two-week immersive course** or **enrolled in a bootcamp** are required to complete. For example, if you are only taking our Beginner Python and Math live online course, working through the first section will be sufficient. If instead you are taking e.g. our *Data Engineering* course as a standalone or enrolled in our *Data Science and Machine Learning bootcamp*, you should work through both sections.
 
+See below for a complete tabular breakdown of **course offerings and the setup required**:
+
+---
+| **Course Type** | **Course Titles**   |  **Setup Requirements**  |
+|:------|:-------|:-------|
+| Short Immersive | Exploratory Data Analysis, Linear Regression & Web Scraping, Business Fundamentals for Data Science, Machine Learning Classification, NLP & Unsupervised Learning, Deep Learning Fundamentals, Data Engineering for Data Science| Sections 1 & 2 |
+| Bootcamp |  Data Analytics, Data Science, Data Science & Engineering, Data Science & Machine Learning | Sections 1 & 2 |
+| Bootcamp Prep |  Beginner Python & Math for Data Science, Introduction to Data Science | Section 1 |
+
 The final section contains a **variety of optional resources** -- we recommend seeing what's there and then digging further into what's most relevant or interesting to you.   
 
-### Getting Set Up For Any Metis Online Course (all Metis students, ~45 minutes - 1 hour)
+### 1. Getting Set Up For Any Metis Online Course (all Metis students, ~45 minutes - 1 hour)
 
 If you're taking any Metis online course that **requires Python** (any course except for the short immersive *Business* course),
 complete our instructions for [**installing Anaconda and the Metis Anaconda environment**](./anaconda_and_metis_env).
@@ -18,9 +27,9 @@ complete our instructions for [**installing Anaconda and the Metis Anaconda envi
 Then, all students must work through our [**Git and GitHub setup instructions**](./git_and_github) to clone
 a local copy of the course repo(s) they need.
 
-### The Metis Immersive Experience (all Metis immersive students, ~1 hour) 
+### 2. The Metis Immersive Experience (all Metis immersive students, ~1 hour) 
 
-If you're taking **any Metis live online course**, you are required to:
+If you're taking **any Metis short immersive or bootcamp course**, you are required to:
 
   - Understand the [**Metis course model and learning environment**](./metis_intro)
 
