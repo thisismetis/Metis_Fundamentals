@@ -13,9 +13,9 @@ See below for a complete tabular breakdown of **course offerings and the setup r
 ---
 | **Course Type** | **Course Titles**   |  **Setup Requirements**  |
 |:------|:-------|:-------|
-| Bootcamp Prep |  Beginner Python & Math for Data Science, Introduction to Data Science | Section 1 |
-| Short Immersive | Exploratory Data Analysis, Linear Regression & Web Scraping, Business Fundamentals for Data Science, Machine Learning Classification, NLP & Unsupervised Learning, Deep Learning Fundamentals, Data Engineering for Data Science| Sections 1 & 2 |
-| Bootcamp |  Data Analytics, Data Science, Data Science & Engineering, Data Science & Machine Learning | Sections 1 & 2 |
+| Bootcamp Prep |  Beginner Python and Math for Data Science, Introduction to Data Science | Section 1 |
+| Short Immersive | Exploratory Data Analysis, Linear Regression and Web Scraping, Business Fundamentals for Data Science, Machine Learning Classification, Natural Language Processing & Unsupervised Learning, Deep Learning Fundamentals, Data Engineering for Data Science| Sections 1 & 2 |
+| Bootcamp |  Data Analytics, Data Science, Data Science and Engineering, Data Science and Machine Learning | Sections 1 & 2 |
 
 The final section contains a **variety of optional resources** -- we recommend seeing what's there and then digging further into what's most relevant or interesting to you.   
 
@@ -27,7 +27,7 @@ complete our instructions for [**installing Anaconda and the Metis Anaconda envi
 Then, all students must work through our [**Git and GitHub setup instructions**](./git_and_github) to clone
 a local copy of the course repo(s) they need.
 
-### 2. The Metis Immersive Experience (all Metis immersive students, ~1 hour) 
+### 2. The Metis Immersive Experience (all Metis Short Immersive and Bootcamp students, ~1 hour) 
 
 If you're taking **any Metis short immersive or bootcamp course**, you are required to:
 
