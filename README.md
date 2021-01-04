@@ -19,7 +19,7 @@ See below for a complete tabular breakdown of **course offerings and the setup r
 
 The final section contains a **variety of optional resources** -- we recommend seeing what's there and then digging further into what's most relevant or interesting to you.   
 
-### 1. Getting Set Up For Any Metis Online Course (all Metis students, ~45 minutes - 1 hour)
+### Section 1. Getting Set Up For Any Metis Online Course (all Metis students, ~45 minutes - 1 hour)
 
 If you're taking any Metis online course that **requires Python** (any course except for the short immersive *Business* course),
 complete our instructions for [**installing Anaconda and the Metis Anaconda environment**](./anaconda_and_metis_env).
@@ -27,7 +27,7 @@ complete our instructions for [**installing Anaconda and the Metis Anaconda envi
 Then, all students must work through our [**Git and GitHub setup instructions**](./git_and_github) to clone
 a local copy of the course repo(s) they need.
 
-### 2. The Metis Immersive Experience (all Metis Short Immersive and Bootcamp students, ~1 hour) 
+### Section 2. The Metis Immersive Experience (all Metis Short Immersive and Bootcamp students, ~1 hour) 
 
 If you're taking **any Metis short immersive or bootcamp course**, you are required to:
 
@@ -40,7 +40,7 @@ If you're taking **any Metis short immersive or bootcamp course**, you are requi
   
 This will ensure that you are prepared to jump into the day-to-day experience of a Metis immersive course, knowing what to expect in terms of schedule, completion requirements, and culture/environment.
 
-### 3. And Resources Beyond (optional)
+### Section 3. And Resources Beyond (optional)
 
 Need to brush up on data science fundamentals -- concepts and terminology? 
 Check out our [**Data Science intro**](./data_science_intro).
