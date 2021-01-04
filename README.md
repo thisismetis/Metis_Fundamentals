@@ -40,7 +40,7 @@ If you're taking **any Metis short immersive or bootcamp course**, you are requi
   
 This will ensure that you are prepared to jump into the day-to-day experience of a Metis immersive course, knowing what to expect in terms of schedule, completion requirements, and culture/environment.
 
-### And Resources Beyond (optional)
+### 3. And Resources Beyond (optional)
 
 Need to brush up on data science fundamentals -- concepts and terminology? 
 Check out our [**Data Science intro**](./data_science_intro).
