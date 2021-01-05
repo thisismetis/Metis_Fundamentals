@@ -53,3 +53,9 @@ Need to spin up a cloud server for an engineering, deep learning,
 or large scale data project?  
 Check out our [**Cloud computing setup guidelines**](./cloud_computing).
 You are most likely to benefit from this if you are taking the *Introduction to Data Engineering* or *Deep Learning Fundamentals* course, but it may be generally helpful for machine learning modules such as *Machine Learning Classification* or *Natural Language Processing and Unsupervised Learning*, especially if you are working with a very large dataset. 
+
+---
+
+### Repo Issues
+
+At Metis, we aim to keep our course content as error-free and seamlessly functional as possible, frequently reviewing and refining it. While we expect that you will find few issues when navigating and using our course repos (either on GitHub or locally), we know we're not perfect. If you encounter issues, it can help you, your peers, future students, and us if you let us know about them by using this [google form](https://docs.google.com/forms/d/e/1FAIpQLSde-RqyXVR-UXvMbhZSp068__rw--36hrLGPsqtp-XJUDWh5g/viewform?usp=sf_link).
