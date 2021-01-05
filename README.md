@@ -52,4 +52,4 @@ Check out our [**Blogging guidelines**](./blog_guidelines).
 Need to spin up a cloud server for an engineering, deep learning, 
 or large scale data project?  
 Check out our [**Cloud computing setup guidelines**](./cloud_computing).
-You are most likely to benefit from this if you are taking the *data engineering* or *deep learning* course, but it may be generally helpful for machine learning modules such as *classification* or *unsupervised and NLP*, especially if you are working with a very large dataset. 
+You are most likely to benefit from this if you are taking the *Introduction to Data Engineering* or *Deep Learning Fundamentals* course, but it may be generally helpful for machine learning modules such as *Machine Learning Classification* or *Natural Language Processing and Unsupervised Learning*, especially if you are working with a very large dataset. 
