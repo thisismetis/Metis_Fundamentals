@@ -2,7 +2,6 @@
 
 [1. Computer Specs](#section-a)  
 [2. Mac vs Windows](#section-b)  
-[3. Docker Requirements](#section-c) 
 
 ---
 
@@ -72,15 +71,4 @@ If you have limited experience with Linux (i.e. if you have to ask the question 
 If you have a lot of familiarity with Linux (say > 1 year), then you may install whatever kind you are most familiar with. Recognize that the instructors may only be able to offer limited assistance if you do so.
 
 ---
-
-## <a name="section-c"></a>3.  Docker Requirements
-
-### Docker
-We will be using [Docker](https://www.docker.com/what-docker) for software installations during the bootcamp.  
-
-#### Docker on Mac
-Running Docker for Mac requires Mac OS X 10.10.3 Yosemite or newer. Your Mac must be a 2010 or newer model, with Intel’s hardware support for memory management unit (MMU) virtualization; i.e., Extended.
-
-#### Docker on AWS Ubuntu
-There is the option to install Docker on an AWS Ubuntu instance.  
 
