@@ -6,7 +6,7 @@ Welcome to the Metis Fundamentals Repo!
 
 ## How to Use This Repo
 
-Each section below is tagged with the group of Metis students for whom it's relevant, as well as the expected completion time. The first section contains the setup steps that **all Metis students** need to complete (Anaconda/Python and Git/GitHub), while the second section contains orientation content that **all students taking a two-week immersive course** or **enrolled in a bootcamp** are required to complete. For example, if you are only taking our Beginner Python and Math live online course, working through the first section will be sufficient. If instead you are taking e.g. our *Data Engineering* course as a standalone or enrolled in our *Data Science and Machine Learning bootcamp*, you should work through both sections.
+Each section below is tagged with the group of Metis students for whom it's relevant, as well as the expected completion time. The first section contains the setup steps that **all Metis live online students** need to complete (Anaconda/Python and Git/GitHub), while the second section contains computer specs and orientation content that **all students taking a two-week immersive course** or **enrolled in a bootcamp** are required to complete. For example, if you are only taking our Beginner Python and Math live online course, working through the first section will be sufficient. If instead you are taking e.g. our *Data Engineering* course as a standalone or enrolled in our *Data Science and Machine Learning bootcamp*, you should work through both sections.
 
 See below for a complete tabular breakdown of **course offerings and the setup required**:
 
@@ -30,6 +30,8 @@ a local copy of the course repo(s) they need.
 ### Section 2. The Metis Immersive Experience (all Metis Short Immersive and Bootcamp students, ~1 hour) 
 
 If you're taking **any Metis short immersive or bootcamp course**, you are required to:
+
+  - Ensure that your computer meets the [**resource requirements**](./computer_requirements/readme.md) for our courses
 
   - Understand the [**Metis course model and learning environment**](./metis_intro)
 
