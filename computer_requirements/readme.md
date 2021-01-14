@@ -1,7 +1,11 @@
 # Computer Requirements
 
-[1. Computer Specs](#section-a)  
-[2. Mac vs Windows](#section-b)  
+If you are taking a Metis bootcamp or short immersive course, it's critical that you have a computer that's up for the job. Data processing can be demanding on computational resources, especially when large-scale datasets and machine learning are involved (as they often are in our courses!). It's also important to know that we **strongly recommend using a mac for Metis courses**. Beyond just resource requirements, mac operating systems make it much easier to be an active programmer and to manage the package installation/configuration required by our courses.
+
+Please **check your computer specs against our recommendations in Section 1.**, and **read section 2 if considering a choice of (new) machine**.   
+
+[Section 1. Computer Specs](#section-a)  
+[Section 2. Mac vs Windows](#section-b)  
 
 ---
 
