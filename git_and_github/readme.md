@@ -10,6 +10,7 @@ a git expert, but rather that you will be able to practically use it to access t
 
 * If you are **cloning a course repo for the first time** or need a refresher on the workflow, see the detailed instructions [here](./git_setup.md) 
 
+* (Optional) If you'd like to set up a **personal Git/GitHub repo** e.g. for a Metis project, see this [practical walkthrough](./personal_git_github_walkthrough.pdf). We recommend having working familiarity with Git before following these steps (e.g. from our Beginner Python and Math / bootcamp prework course content). Using this approach to create a **backup copy of your code for Metis projects** is optional, but strongly encouraged!    
 
 ## Additional Resources
 
