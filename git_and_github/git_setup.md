@@ -1,6 +1,6 @@
 # Git and GitHub
 
-We highly recommend that you check out the [walkthrough video](https://drive.google.com/file/d/1o_OMVh-eU9qTliKvzUt_eYARZ-yIKGvg/view?usp=sharing) that accompanies these instructions! ((reach out to X if you need access to the google drive)
+We highly recommend that you check out the [walkthrough video](https://youtu.be/x2yiIyRWWy8) that accompanies these instructions! ((reach out to X if you need access to the google drive)
 
 
 ![alt text](https://imgs.xkcd.com/comics/git.png "XKCD")
