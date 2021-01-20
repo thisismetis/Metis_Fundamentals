@@ -1,7 +1,7 @@
 
 # Metis Conda Environment
 
-We recommend checking out the [walkthrough video](https://drive.google.com/file/d/1JHVYSlRG_Z2ppwf9FeYnLCJzrOlJaZio/view?usp=sharing) that accompanies these instructions! (reach out to X if you need access to the google drive)
+We recommend checking out the [walkthrough video](https://youtu.be/q1RXF4fdlJc) that accompanies these instructions.
 
 ### Environment management
 
