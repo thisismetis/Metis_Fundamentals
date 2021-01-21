@@ -1,7 +1,5 @@
 # Pair Programming Intro and Guidelines
 
-We strongly recommend that you check out this short pair programming demo video [TO BE ADDED]() to see what it's like.
-
 Pair Programming is a style of problem solving where two people collaborate, typically to write a functioning, code-based solution to a programmatic challenge. One person in the pair will be the **driver**, while the other will be the **navigator**. The driver focuses on drilling into the syntax details of the solution and typing out the actual code, while the navigator focuses on the overall logic and strategy of the solution approach. 
 
 It's hard to completely prevent driver and navigator tasks from overlapping, but it's key to the exercise that you **try to do so as much as possible**. Approaching pair problems from both perspectives will help you develop your problem solving skills along with your ability to be an effective technical collaborator.
