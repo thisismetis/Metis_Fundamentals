@@ -31,7 +31,7 @@ a local copy of the course repo(s) they need.
 
 If you're taking **any Metis short immersive or bootcamp course**, you are required to:
 
-  - Ensure that your computer meets the [**resource requirements**](./computer_requirements/readme.md) for our courses
+  - Ensure that your computer meets the [**resource requirements**](./computer_requirements/readme.md) for our courses; these requirements are applicable for any short immersive course except for the  *Business Fundamentals for Data Science* course
 
   - Understand the [**Metis course model and learning environment**](./metis_intro)
 
