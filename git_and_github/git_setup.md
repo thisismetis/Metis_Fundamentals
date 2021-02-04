@@ -103,7 +103,7 @@ Fast-forward
 ...
 ```
 
-**Important note**: older github repositories may have default branches named "master" instead of "main". If this is the case, you will need to **run the command `git pull origin master` as a substitute for the above**, and generally replace references to "main" with "master". Metis has made an intentional choice to move to using "main" wherever possible in order to avoid the obviously problematic connotations of the "master" language (GitHub is also working on this shift).  
+**Important note**: older github repositories may have default branches named "master" instead of "main". If this is the case, you will need to **run the command `git pull origin master` as a substitute for the above**, and generally replace references to "main" with "master".   
 
 ---
 
