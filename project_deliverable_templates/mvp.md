@@ -9,11 +9,12 @@ of product that they're looking for before you invest more time and effort into 
 
 In the context of Metis projects, MVPs will typically be simple results (relevant to your question) from a preliminary analysis 
 or a functional baseline model/system. Their key **prerequisite is access to data amenable to analysis/modeling**, so they also
-serve as a check on your project progress. In its simplest terms, you can think of an MVP submission as **"show us what you have so far"**. 
+serve as a check on your project progress. In its simplest terms, you can think of an MVP submission as **"show us what you have so far."** 
 
 ### Submission Instructions:
 
- * MVPs should be a **short markdown file** or jupyter notebook showcasing initial findings/models.  
+ * MVPs should be a **short markdown file** or 
+ jupyter notebook showcasing initial findings/models.  
  * Select a very small number of plots or relevant visuals (1 or 2 sounds perfect) from your project.
  * Pull out the plots, give them concise captions/context, and write up your initial conclusions. 
  * Refer to the regression project [MVP example](./project_deliverable_examples/regression/regression_mvp_ex.md) for a handy, simple example. 
