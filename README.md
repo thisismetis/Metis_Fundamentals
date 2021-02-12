@@ -21,7 +21,7 @@ The final section contains a **variety of optional resources** -- we recommend s
 
 ### Section 1. Getting Set Up For Any Metis Online Course (all Metis students, ~45 minutes - 1 hour)
 
-If you're taking any Metis online course that **requires Python** (any course except for the short immersive *Business Fundamentals for Data Science* course),
+If you're taking any Metis online course that **requires Python** (any course except for the short immersive *Business Fundamentals for Data Science*),
 complete our instructions for [**installing Anaconda and the Metis Anaconda environment**](./anaconda_and_metis_env).
 
 Then, all students must work through our [**Git and GitHub setup instructions**](./git_and_github) to clone
