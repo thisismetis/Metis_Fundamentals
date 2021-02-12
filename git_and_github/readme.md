@@ -10,7 +10,7 @@ a git expert, but rather that you will be able to practically use it to access t
 
 * If you are **cloning a course repo for the first time** or need a refresher on the workflow, see the detailed instructions [here](./git_setup.md) 
 
-* If you need to set up a **personal Git/GitHub repo** e.g. for a Metis project submission, see this [practical walkthrough](./personal_git_github_walkthrough.pdf). Using this approach to also create a regularly updated **backup copy of your code for Metis projects** is optional, but strongly encouraged!    
+* If you need to set up a **personal Git/GitHub repo** e.g. for a Metis project submission, see this [practical walkthrough video](https://www.youtube.com/watch?v=Ef9qFmtVDmI&feature=youtu.be) or its accompanying [walkthrough slides](./personal_git_github_walkthrough.pdf). Using this approach to also create a regularly updated **backup copy of your code for Metis projects** is optional, but strongly encouraged!    
 
 ## Additional Resources
 
