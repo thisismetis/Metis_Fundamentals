@@ -1,7 +1,7 @@
 
 # Metis Conda Environment
 
-We recommend checking out the [walkthrough video](https://youtu.be/q1RXF4fdlJc) that accompanies these instructions.  This section is recommended but not required for **Beginner Python and Math for Data Science students**.
+We recommend checking out the [walkthrough video](https://youtu.be/q1RXF4fdlJc) that accompanies these instructions.  This section is recommended but not required for **Beginner Python and Math for Data Science** students.
 
 ### Environment management
 
