@@ -1,7 +1,7 @@
 
 # Metis Conda Environment
 
-We recommend checking out the [walkthrough video](https://youtu.be/q1RXF4fdlJc) that accompanies these instructions.
+We recommend checking out the [walkthrough video](https://youtu.be/q1RXF4fdlJc) that accompanies these instructions. Make sure you meet the following [computer requirements](https://github.com/thisismetis/Metis_Fundamentals/blob/main/computer_requirements/readme.md).
 
 ### Environment management
 
