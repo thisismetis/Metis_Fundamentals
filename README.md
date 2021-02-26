@@ -13,7 +13,7 @@ See below for a complete tabular breakdown of **course offerings and the setup r
 ---
 | **Course Type** | **Course Titles**   |  **Setup Requirements**  |
 |:------|:-------|:-------|
-| Bootcamp Prep |  Beginner Python and Math for Data Science, Introduction to Data Science | Section 1 |
+| Bootcamp Prep |  Pre-work, Beginner Python and Math for Data Science, Introduction to Data Science | Section 1 |
 | Short Immersive | Exploratory Data Analysis, Linear Regression and Web Scraping, Business Fundamentals for Data Science, Machine Learning Classification, Natural Language Processing and Unsupervised Learning, Deep Learning Fundamentals, Data Engineering for Data Science| Sections 1 and 2 |
 | Bootcamp |  Data Analytics, Data Science, Data Science and Engineering, Data Science and Machine Learning | Sections 1 and 2 |
 
@@ -21,7 +21,7 @@ The final section contains a **variety of optional resources** -- we recommend s
 
 ### Section 1. Getting Set Up For Any Metis Online Course (all Metis students, ~45 minutes - 1 hour)
 
-If you're taking any Metis online course that **requires Python** (any course except for the short immersive *Business Fundamentals for Data Science* course),
+If you're taking any Metis online course that **requires Python** (any course except for the short immersive *Business Fundamentals for Data Science*),
 complete our instructions for [**installing Anaconda and the Metis Anaconda environment**](./anaconda_and_metis_env).
 
 Then, all students must work through our [**Git and GitHub setup instructions**](./git_and_github) to clone
