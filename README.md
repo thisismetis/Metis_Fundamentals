@@ -35,6 +35,8 @@ If you're taking **any Metis short immersive or bootcamp course**, you are requi
 
   - Understand the [**Metis course model and learning environment**](./metis_intro)
 
+  - Review our [**Orientation**](./orientation)
+
   - Grasp the basics of our daily [**pair programming exercises**](./pair_programming_guidelines)
 
   - Get comfortable with our [**project deliverable guidelines**](./project_deliverable_templates),
