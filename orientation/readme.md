@@ -1,6 +1,6 @@
-# Introduction to Metis Live Online
+# Orientation
 
-* We strongly recommend that you check out the [intro video](https://www.youtube.com/watch?v=fzhSHXLWbNs&feature=youtu.be) that accompanies the slides,
-but you can also directly look at the Metis intro [powerpoint](Metis_Intro.pptx) or [pdf](Metis_Intro.pdf)
-
+* Prior to the start of the Bootcamp or Short Immersive courses you should check out the following [orientation video](https://www.youtube.com/watch?v=fzhSHXLWbNs&feature=youtu.be) 
+* You should also be familiar with our [catalogs](https://www.thisismetis.com/catalogs-and-disclosures)
+* 
 
