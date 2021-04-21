@@ -100,7 +100,7 @@ You may need to run:
   
 ```sudo apt-get update```
   
-```sudo apt-get install```
+```sudo apt-get install wget```
 
 Then download the linux install script:
 
