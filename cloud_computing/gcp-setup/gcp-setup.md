@@ -87,7 +87,7 @@ Here is a [great video](https://www.youtube.com/watch?time_continue=4&v=Db4FfhXD
 **SSH into your GCP instance**
 In your terminal, enter 
 
-'''ssh -i [YOUR_KEYFILE_PATH] [YOUR_GCP_USERNAME]@[YOUR_GCP_EXTERNAL_IP]'''
+```ssh -i [YOUR_KEYFILE_PATH] [YOUR_GCP_USERNAME]@[YOUR_GCP_EXTERNAL_IP]```
 
 (You can find YOUR_GCP_EXTERNAL_IP in your GCP console / instance dashboard)  
 
@@ -96,8 +96,10 @@ Enter "yes" when prompted and you should see your terminal name change to someth
 
 **Install Anaconda on your instance** 
 
-You may need to run: 
-```sudo apt-get update``` 
+You may need to run:
+  
+```sudo apt-get update```
+  
 ```sudo apt-get install```
 
 Then download the linux install script:
