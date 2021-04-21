@@ -96,9 +96,11 @@ Enter "yes" when prompted and you should see your terminal name change to someth
 
 **Install Anaconda on your instance** 
 
-You may need to run '''sudo apt-get update''' followed by '''sudo apt-get install wget''', then:
+You may need to run: 
+```sudo apt-get update``` 
+```sudo apt-get install```
 
-First, download the linux install script:
+Then download the linux install script:
 
 ```wget https://repo.anaconda.com/archive/Anaconda3-2020.02-Linux-x86_64.sh```
 
