@@ -7,9 +7,9 @@ and be built upon.
 A helpful analogy: if you're designing a transportation vehicle, your final product might be a car, but your MVP on the way there is a skateboard. It's a useful tool that provides transport and is significantly easier to build, and your client can more quickly confirm that this is the type
 of product that they're looking for before you invest more time and effort into enhancing it.
 
-In the context of Metis projects, MVPs will typically be simple results (relevant to your question) from a preliminary analysis 
-or a functional baseline model/system. Their key **prerequisite is access to data amenable to analysis/modeling**, so they also
-serve as a check on your project progress. In its simplest terms, you can think of an MVP submission as **"show us what you have so far"**. 
+In the context of Metis projects, MVPs will typically be simple results from a preliminary analysis 
+or a functional baseline model/system that **address the central project purpose and/or offer actionable takeaways**. Their key **prerequisite is access to data amenable to analysis/modeling**, so they also
+serve as a check on your project progress. In its simplest terms, you can think of an MVP submission as **"show us what you have so far that solves the problem"**. 
 
 ### Submission Instructions:
 
