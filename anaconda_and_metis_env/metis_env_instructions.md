@@ -1,7 +1,7 @@
 
 # Metis Conda Environment
 
-We recommend checking out the [walkthrough video](https://youtu.be/q1RXF4fdlJc) that accompanies these instructions.  This section is recommended but not required for **Beginner Python and Math for Data Science** and **Introduction to Data Science** students. **NOTE:** Windows machines may run into issues installing the conda environment, such as installing XGBoost.  Please review the supported [Computer Requirements](https://github.com/thisismetis/Metis_Fundamentals/blob/main/computer_requirements/readme.md).
+We recommend checking out the [walkthrough video](https://youtu.be/q1RXF4fdlJc) that accompanies these instructions.  This section is recommended but not required for **Beginner Python and Math for Data Science** and **Introduction to Data Science** students. **NOTE:** Windows machines may run into issues installing the conda environment, such as installing XGBoost.  Please review the supported [Computer Requirements](https://github.com/thisismetis/Metis_Fundamentals/blob/main/computer_requirements/readme.md).  This process can take up to **2 hrs** depending on your computer!
 
 ### Environment management
 
