@@ -37,16 +37,16 @@ First, run this command to make sure `conda` is up-to-date.
 conda update conda -y
 ```
 
-Next, we need to install `anaconda-client` in order to load cloud environments.
+Next, we need to install two packages. (`anaconda-client` allows us to load cloud environments and `mamba` is a faster version of `conda`).
 
 ```bash
-conda install anaconda-client -y
+conda install anaconda-client mamba -c conda-forge -y
 ```
 
 Finally, install the Metis environment:
 
 ```bash
-conda env create thisismetis/metis
+mamba env create thisismetis/metis
 ```
 
 The `nb_conda` package will automatically connect your conda environment to
