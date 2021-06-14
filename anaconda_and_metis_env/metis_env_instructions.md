@@ -49,6 +49,16 @@ Finally, install the Metis environment:
 mamba env create thisismetis/metis
 ```
 
+---
+
+**Important Note**: *only if the above installation with mamba does not work*, you should instead run the command below. We expect this to be a slower but workable backup option. 
+
+```bash
+conda env create thisismetis/metis
+```
+
+---
+
 The `nb_conda` package will automatically connect your conda environment to
 jupyter.
 
