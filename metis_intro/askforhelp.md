@@ -8,7 +8,7 @@ Google/stackoverflow will be your best friend when working through your projects
 As you debug and Google to answer your own questions, it will get easier and easier!
 
 
-### Ask your project group!
+### (Only for Live Online) Ask your project group! 
 
 If Googling isn’t giving you any promising leads in the first 10 -15 minutes, ask your project group if they have encountered a similar problem or have an idea for a solution. One of the greatest benefits of the bootcamp format is having a community to rely on and learn from, so make use of it! 
 
