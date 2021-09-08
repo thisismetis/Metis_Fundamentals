@@ -116,7 +116,7 @@ Next exit out of your ssh shell and reconnect so that your anaconda path updates
 
 Alternatively, update your path manually to make sure it has your anaconda install location:
 
-```export PATH=/home/[YOUR_GCP_USERNAME]/anaconda3/bin:PATH```
+```export PATH=/home/[YOUR_GCP_USERNAME]/anaconda3/bin:$PATH```
 
 
 **Run Jupyter** 
