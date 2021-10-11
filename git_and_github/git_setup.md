@@ -61,10 +61,18 @@ For example, if you want to clone this repo it is: https://github.com/thisismeti
 
 ---
 
-##  Clone repo
-Clone that repo.
+### August 2021 GitHub token authentication requirements
 
-In right column, find the link to **Clone with HTTPS** and copy that URL to be cloned.
+As of August 13, 2021, [GitHub no longer accepts account passwords to authenticate GitHub access.](https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/) As a result, you may not be able to perform the steps below if none of the following is true:
+
+* You have two-factor authentication enabled for your account
+* You are already using token- or SSH-based authentication.
+
+To create a personal access token, follow the [instructions here](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token). **Ensure that you save your new personal access token outside of the GitHub browser**, either in a file or in the Git command line credentials itself! As stated in the instructions, you won't be able to see your token again once you leave the creation page instead.
+
+##  Clone repo
+
+Click the green **Code** button and find the link to **Clone with SSH**. Copy that URL to be cloned.
 Next, open a **command line prompt** (e.g. terminal on mac), and navigate to any directory
 such as home (~) where you would like to save your cloned repo. 
 
@@ -73,6 +81,7 @@ $ cd ~
 $ git clone https://github.com/thisismetis/metis_fundamentals.git
 $ cd metis_fundamentals
 ```
+
 
 #### Potential extra step:
 You might run into an error if you've already cloned the repo in this location before. If that's the case, remove the old repo (assuming you don't have any changes in it that you want to save) with the line below and try to git clone again.
