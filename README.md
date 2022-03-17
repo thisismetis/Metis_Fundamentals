@@ -46,17 +46,10 @@ This will ensure that you are prepared to jump into the day-to-day experience of
 
 ### Section 3. And Resources Beyond (optional)
 
-Need to brush up on data science fundamentals -- concepts and terminology? 
-Check out our [**Data Science intro**](./data_science_intro).
-You are most likely to benefit from this if you are new to Metis and/or taking a standalone short immersive course. 
-
-Looking to blog about your experience with Metis projects and courses?
-Check out our [**Blogging guidelines**](./blog_guidelines).
-
-Need to spin up a cloud server for an engineering, deep learning, 
-or large scale data project?  
-Check out our [**Cloud computing setup guidelines**](./cloud_computing).
-You are most likely to benefit from this if you are taking the *Introduction to Data Engineering* or *Deep Learning Fundamentals* course, but it may be generally helpful for machine learning modules such as *Machine Learning Classification* or *Natural Language Processing and Unsupervised Learning*, especially if you are working with a very large dataset. 
+- Are you all set up with Jupyter? Check out these helpful [**keyboard shortcuts**](./keyboard_shortcuts.png) to save time during project work!
+- Need to brush up on data science fundamentals -- concepts and terminology? Check out our [**Data Science intro**](./data_science_intro). You are most likely to benefit from this if you are new to Metis and/or taking a standalone short immersive course. 
+- Looking to blog about your experience with Metis projects and courses? Check out our [**Blogging guidelines**](./blog_guidelines).
+- Need to spin up a cloud server for an engineering, deep learning, or large scale data project?  Check out our [**Cloud computing setup guidelines**](./cloud_computing). You are most likely to benefit from this if you are taking the *Introduction to Data Engineering* or *Deep Learning Fundamentals* course, but it may be generally helpful for machine learning modules such as *Machine Learning Classification* or *Natural Language Processing and Unsupervised Learning*, especially if you are working with a very large dataset.
 
 ---
 
